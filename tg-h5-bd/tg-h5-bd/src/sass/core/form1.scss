@@ -1,0 +1,33 @@
+.yxCrmPanel {
+    width: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yxItem {
+    margin-bottom: 0.2rem;
+}
+
+.yxItemLabel {
+    height: 0.25rem;
+    line-height: 0.25rem;
+    width: 28% !important;
+    font-size: 0.14rem;
+    white-space: nowrap;
+}
+
+.yxItemContent {
+    width: 72% !important;
+}
+
+.yxItemContent input {
+    font-size: 0.14rem;
+   height: 0.25rem !important;
+}
+
+.submit {
+    padding: 0.08rem 0.15rem !important;
+    font-size: 0.16rem !important;
+}

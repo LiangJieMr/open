@@ -1,0 +1,214 @@
+.banner{
+	width: 100%;
+	 #second_div{
+		 .img_box{
+		    overflow: hidden;
+		    width:100%;
+			height: 600px;
+		    position:relative;
+			.img_box1{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				z-index: 99998;
+				background: url(../assets/img/banner1.png) no-repeat;
+				background-position-x:center;
+				.banner_box1{
+					width:1090px;
+					margin:0 auto;
+					.banner_con{
+						width: 620px;
+						height: 426px;
+						margin: 90px 0 0 0;
+						color: #fff;
+						.banner_con_one{
+							padding-left: 30px;
+							margin-left: 45px;
+							font-size: 48px;
+							margin-bottom: 10px;
+							-ms-transform:skew(-10deg);
+							-webkit-transform:skew(-10deg);
+							-moz-transform:skew(-10deg);
+							letter-spacing: 8px;
+							background-color:rgba(0,0,0,0.5);
+							span{
+								color: #ffde28;
+							}
+						}
+						.banner_con_two{
+							width: 465px;
+							padding-left: 80px;
+							font-size: 48px;
+							-ms-transform:skew(-10deg);
+							-webkit-transform:skew(-10deg);
+							-moz-transform:skew(-10deg);
+							letter-spacing: 8px;
+							background-color:rgba(0,0,0,0.5)
+						}
+						.banner_con_ul{
+							width: 345px;
+							height: 180px;
+							font-size: 20px;
+							margin: 35px 0 0 90px;
+							li{
+								height:33px;
+								line-height: 33px;
+								margin-bottom:25px;
+								letter-spacing: 2px;
+								position:relative;
+								padding-left:125px;
+								b{
+									font-size: 30px;
+									display: inline-block;
+									position: absolute;
+									left: 43px;
+								}
+							}
+							li:nth-child(1){
+								background: url(../assets/img/zhengGui.png) no-repeat;
+								background-position: 0 center;
+							}
+							li:nth-child(2){
+								background: url(../assets/img/qingSong.png) no-repeat;
+								background-position: 0 center;
+							}
+							li:nth-child(3){
+								background: url(../assets/img/shengQian.png) no-repeat;
+								background-position: 0 center;
+							}
+						}
+						.banner_con_span{
+							width: 360px;
+							margin: 0 0 0 90px;
+							color: #000000;
+							font-size: 24px;
+							font-weight: bold;
+							display: block;
+							margin-top: 18px;
+							padding: 15px 53px;
+							background: #ffde28;
+							letter-spacing: 1px;
+						}
+					}
+				}
+			}
+			.img_box2{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				z-index: 99998;
+				background: url(../assets/img/banner2.png) no-repeat;
+				background-position-x:center;
+				.banner_box2{
+					width:1090px;
+					margin:0 auto;
+					.banner_con2{
+						float: right;
+						width: 775px;
+						height: 415px;
+						text-align: center;
+						margin:90px auto 0 auto;
+						.banner_con2_one{
+							width: 420px;
+							margin: 0 auto 25px auto;
+							font-size: 30px;
+							font-weight: bold;
+							padding: 2px 0 2px 45px;
+							-ms-transform:skew(-10deg);
+							-webkit-transform:skew(-10deg);
+							-moz-transform:skew(-10deg);
+							letter-spacing: 1px;
+							background: #fcf050;
+						}
+						.banner_con2_tit{
+							font-size: 48px;
+						}
+						.banner_con2_the{
+							font-size: 25px;
+							span{
+								padding: 0 20px 0 15px;
+							}
+							i{
+								display: inline-block;
+								width: 230px;
+								height: 1px;
+								background: #000;
+								position: relative;
+								top: -7px;
+							}
+						}
+						.banner_con2_inn{
+							letter-spacing: 1px;
+							font-size: 22px;
+							margin-bottom: 55px;
+						}
+						.banner_con2_btn{
+							width: 340px;
+							margin: 0 auto 28px auto;
+							display: block;
+							border-radius: 30px;
+							font-size: 24px;
+							color: #fff;
+							padding: 15px 50px;
+							background: #4b85ce;
+							background: -moz-linear-gradient(left, #4b85ce 0%, #5bb3d7 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b85ce), color-stop(100%,#5bb3d7));
+							background: -webkit-linear-gradient(left, #4b85ce 0%,#5bb3d7 100%);
+							background: -o-linear-gradient(left, #4b85ce 0%,#5bb3d7 100%);
+							background: -ms-linear-gradient(left, #4b85ce 0%,#5bb3d7 100%);
+							background: linear-gradient(to right, #4b85ce 0%,#5bb3d7 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b85ce', endColorstr='#5bb3d7',GradientType=0 );
+							:root .gradient{filter:none;}
+						}
+					}
+				}
+			}
+		 }
+		.ul5{
+			width: 70px;
+			overflow: hidden;
+			margin: 0 auto;
+			position: relative;
+			top: -40px;
+			z-index: 99999;
+		}
+		.ul5 li{
+			float:left;
+			width:17px;
+			height:17px;
+			border:2px solid #f7f7f8;
+			border-radius: 50%;
+			background: transparent;
+			cursor: pointer;
+		}
+		.ul5 li.one{
+			margin-right: 32px;
+		}
+		.d1,.d2{
+			width:56px;
+			height:108px;
+			text-align: center;
+			font-size:26px;
+			font-weight: 800px;
+			line-height:60px;
+			cursor: pointer;
+		}
+		.d1{
+			background: url(../assets/img/banner_l.png);
+			position:absolute;
+			top:344px;
+			left:133px;
+			z-index: 99999;
+		}
+		.d2{
+			background: url(../assets/img/banner_r.png);
+			position:absolute;
+			top:344px;
+			right:133px;
+			z-index: 99999;
+		}
+	 }
+}
+

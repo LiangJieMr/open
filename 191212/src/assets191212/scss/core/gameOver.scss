@@ -1,0 +1,19 @@
+.game-over{
+    display: none;
+    .outer{
+        position: fixed;
+        z-index: 10000;
+        top: 50%;
+        left: 50%;
+        width: 458px;
+        height: 102px;
+        margin: -51px 0 0 -229px;
+        background-color: rgba(247, 155, 0, 0.7);
+        box-shadow: 0px 4px 9px 0px 
+            rgba(236, 55, 35, 0.7);
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        line-height: 102px;
+    }
+}

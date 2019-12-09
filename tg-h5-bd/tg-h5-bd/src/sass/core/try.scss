@@ -1,0 +1,27 @@
+.try{
+    background-color: #f8f8f8;
+    padding-bottom:0.283333rem;
+    .title{
+        padding:0.306666rem 0 0.296666rem 0;
+        text-align: center;
+        font-size: 0.2rem;
+        color: #3882e0;
+    }
+    .form{
+        dt{
+            height:0.276666rem;
+            width: 0.276666rem;
+            margin: 0 0.103333rem 0 0.186666rem;
+            border-radius: 50%;
+            line-height: 0.276666rem;
+            font-size: 0.15rem;
+            text-align: center;
+            background-color: #fff;
+            i{
+                display: none;
+            }
+        }
+    }
+    @import './form';
+   @import './scroll';
+}

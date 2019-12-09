@@ -1,0 +1,61 @@
+.singular-tip{
+    display: none;
+   .outer{
+        position: fixed;
+        left:50%;
+        top: 50%;
+//      transform: translate(-50%,-50% );
+        z-index: 10000;
+        width: 352px;
+        margin-left: -176px;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 9px 0px 
+            rgba(245, 90, 22, 0.48);
+        border-radius: 10px;
+        border: solid 2px #ff5e30;
+   }
+   .content{
+       max-width: 310px;
+       margin: 0 auto;
+   }
+   dt{
+       padding-top: 40px;
+   }
+   .error-icon{
+       margin-right: 3px;
+       font-weight: normal;
+       color: #ff5e30;
+   }
+   .sorry{
+       img{
+         width: 79px;
+         height: 79px;  
+       }
+   }
+   .option{
+       width: 321px;
+       margin: 0 auto;
+       margin-top: 29px;
+       padding: 13px 0 23px;
+       border-top: 2px solid #f3f3f3;
+       text-align: center;
+       font-weight: normal;
+       button{
+           width: 140px;
+           height: 42px;
+           background-color: #ff5e30;
+           border-radius: 21px;
+           font-size: 16px;
+           color: #fff;
+           outline: none;
+           border: none;
+           cursor: pointer;
+       }
+       button:active{
+           transform: scale(1.05);
+       }
+   }
+}

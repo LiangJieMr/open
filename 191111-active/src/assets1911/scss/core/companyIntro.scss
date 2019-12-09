@@ -1,0 +1,58 @@
+.student-box{
+    padding:1rem 0 0.6rem 0;
+    background: url('../img/student.png') no-repeat center center/100% 100%;
+    font-size: 0;   
+    .inner{
+        position: relative;
+        width: 7.02rem;
+        min-height: 2.38rem;
+        margin: 0 auto;
+        padding-bottom: 0.51rem;
+        border: 0.12rem solid #e54e47;
+        border-top: 0.12rem solid transparent;
+        .left,.right{
+            position: absolute;
+            top: -0.12rem;
+            height: 0.12rem;
+            width: 1.7rem;
+            z-index: 1;
+            background-color: #e54e47;
+        }
+        .left{
+           left: -0.12rem;
+            
+        }
+        .right{
+            right: -0.12rem;
+        }
+        dt{
+            width: 3.04rem;
+            margin: 0 auto;
+            margin-top: -0.45rem;
+            margin-bottom: 0.2rem;
+            padding: 0.11rem 0 0.12rem;
+            border-top:0.02rem solid #000;
+            border-bottom:0.02rem solid #000;
+            color: #000;
+            text-align: center;
+            img{
+                width: 2.74rem;
+            }
+        }
+        dd{
+            text-align: center;
+            font-size: 0.22rem;
+            color: #646464;
+            
+        }
+        .line{
+            height: 0.04rem;
+            width: 0.68rem;
+            background-color: #e54e47;
+            margin: 0.22rem auto 0.3rem;
+        }
+        .end{
+            margin-top: 0.13rem;
+        }
+    }
+}

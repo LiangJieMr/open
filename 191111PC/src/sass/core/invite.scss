@@ -1,0 +1,131 @@
+.invite{
+	display: none;
+	width: 638px;
+	height: 328px;
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	margin-left: -315px;
+	margin-top: -162px;
+	box-sizing: border-box;
+	padding: 4px;
+	border-radius: 30px;
+	background: -webkit-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: -moz-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	.invite_inner{
+		width: 100%;
+		height: 100%;
+		border-radius: 28px;
+		background: #fff;
+		text-align: center;
+		position: relative;
+		.invite_tit{
+			font-size: 24px;
+			letter-spacing: 3px;
+			color: #000;
+			font-weight: bold;
+			padding-top: 24px;
+			margin-bottom: 32px;
+		}
+		.invite_con{
+			.invite_l{
+				float: left;
+				margin-left: 35px;
+				width: 150px;
+				text-align: center;
+				font-size: 18px;
+				p{
+					letter-spacing: 2px;
+				}
+				.erWeiMa{
+					width: 150px;
+					height: 150px;
+					margin-top: 3px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+			.invite_z{
+				float: left;
+				width: 1px;
+				height: 181px;
+				background: #b0aec2;
+				margin-left: 33px;
+				position: relative;
+				top: 20px;
+			}
+			.invite_r{
+				float: left;
+				text-align: left;
+				margin-left: 46px;
+				font-size: 18px;
+				.in_text{
+					width: 313px;
+					height: 40px;
+					border: 2px solid #aaa;
+					border-radius: 5px;
+					position: relative;
+					padding: 2px;
+					margin: 16px auto 21px;
+					input{
+						width: 194px;
+						font-size: 15px;
+						height: 38px;
+						line-height: 42px;
+						padding-left: 19px;
+						border: none;
+						outline: none;
+					}
+					.in_btn{
+						display: inline-block;
+						width: 108px;
+						height: 48px;
+						color: #fff;
+						font-size: 15px;
+						background: #565c62;
+						text-align: center;
+						line-height: 48px;
+						letter-spacing: 1px;
+						border-radius: 5px;
+						position: absolute;
+						top: -2px;
+						right: -1px;
+						cursor: pointer;
+					}
+					.in_btn:active{
+						line-height: 50px;
+					}
+				}
+				.invite_btn{
+					display: block;
+					width: 317px;
+					height: 48px;
+					line-height: 48px;
+					background: #feefed;
+					color: #ed8783;
+					font-size: 20px;
+					text-align: center;
+					letter-spacing: 2px;
+					border-radius: 30px;
+					margin-top: 10px;
+					cursor: pointer;
+				}
+				.invite_btn:active{
+					line-height: 50px;
+				}
+				.invi{
+					font-size: 34px;
+					color: #a8a8a8;
+					position: absolute;
+					top: 5px;
+					right: 16px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

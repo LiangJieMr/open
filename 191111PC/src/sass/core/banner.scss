@@ -1,0 +1,50 @@
+.banner{
+  width: 100%;
+  height: 132px;
+  background-image: url("../assets191111/img/banner_bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-top: 503px;
+  .banner_date{
+    width: 1032px;
+    height: 75px;
+    margin: 0 auto;
+    background-image: url("../assets191111/img/date.png");
+    background-repeat: no-repeat;
+    padding: 7px 9px 0px 9px;
+    .zhuLi{
+      float: left;
+      width: 400px;
+      height: 69px;
+      line-height: 69px;
+      padding-left: 110px;
+      color: #a2a2a3;
+      b{
+        font-weight: normal;
+        font-size: 30px;
+        padding-right: 8px;
+      }
+      span{
+        font-size: 25px;
+      }
+    }
+    .zhuXueJin{
+      float: right;
+      width: 400px;
+      padding-left: 110px;
+      height: 69px;
+      line-height: 69px;
+      font-size: 30px;
+      color: #a2a2a3;
+      b{
+        font-weight: normal;
+        padding-left: 8px;
+      }
+    }
+    .banner_act{
+      background-image: url("../assets191111/img/date_act.png");
+      background-repeat: no-repeat;
+      color: #fff;
+    }
+  }
+}

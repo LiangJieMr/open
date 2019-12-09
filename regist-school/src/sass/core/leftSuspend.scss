@@ -1,0 +1,35 @@
+.lsu{
+  position: fixed;
+  top: 200px;
+  left: 65px;
+  z-index: 99997;
+  .lsu_ul{
+    li{
+      text-align: center;
+      width: 128px;
+      height: 36px;
+      cursor: pointer;
+      line-height: 36px;
+      background: #313131;
+      font-size: 17px;
+      color: #fff;
+      margin-bottom: 5px;
+      .lo{
+        width: 95%;
+      }
+    }
+    li:first-child{
+      background: transparent;
+      padding-top: 3px;
+    }
+    li:nth-child(8){
+      background: #009de2;
+    }
+    li:last-child{
+      background: #cf1b7d;
+    }
+    li:hover{
+      color: #ffde28;
+    }
+  }
+}

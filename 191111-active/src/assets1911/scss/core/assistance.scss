@@ -1,0 +1,97 @@
+.assistance-popup{
+    display: none;
+    .outer{
+        position: fixed;
+        z-index: 10000;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    dl{
+        width: 6.23rem;
+        padding-bottom: 0.51rem;
+        border: solid 0.04rem #1d8aff;
+        border-radius: 0.2rem;
+        overflow: hidden;
+        text-align: center;
+        background-color: #fff;
+    }
+    dt{
+        position: relative;
+        height:1.09rem;
+        line-height: 1.09rem;
+        background-color:#05beff;
+        font-size: 0.4rem;
+        color: #fff;
+        i{
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding:0 0.3rem;
+            font-size: 0.6rem;
+            color: #fff;
+        }
+    }
+    .title{
+        padding: 0.3rem 0 0.06rem;
+        font-size:0.25rem;
+        color: #373737;
+    }
+    .ercode{
+        width:2.75rem;
+        height:2.75rem;
+        margin: 0 auto;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .inval{
+        padding: 0.4rem 0 0.21rem;
+        font-size: 0.25rem;
+        color: #373737;
+    }
+    .copy-link{
+        height: 0.7rem;
+        width: 4.71rem;
+        margin: 0 auto;
+        white-space: nowrap;
+        input,button{
+            height: 100%;
+        }
+        input{
+            float: left;
+            width: 3.12rem;
+            border: solid 0.02rem #aaaaaa;
+            border-right:solid 0 transparent;
+            text-indent: 0.08rem;
+            border-radius: 0.05rem 0 0 0.05rem;
+            font-size: 0.2rem;
+            outline: none;
+        }
+        button{
+            float: right;
+            width: 1.56rem;
+            height: 0.74rem;
+            border-radius: 0.05rem;
+            background-color: #545c63;
+            font-size: 0.2rem;
+            color: #fff;
+        }
+    }
+    .playbill{
+        padding: 0.54rem 0 0.25rem 0;
+        font-size: 0.25rem;
+        color: #373737;
+    }
+    .get-plybill{
+        button{
+            width: 4.7rem;
+            height: 0.92rem;
+            border-radius: 0.46rem;
+            background-color: #ffeeed;
+            font-size: 0.3rem;
+            color:#ff807f;
+        }
+    }
+}

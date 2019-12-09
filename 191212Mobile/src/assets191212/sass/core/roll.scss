@@ -1,0 +1,40 @@
+.addsucc{
+	display: none;
+    width: 5.12rem;
+    padding: 0.44rem 0.3rem 0.3rem 0.3rem;
+    min-height: 2.1rem;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.89rem;
+    margin-top: -2.5rem;
+    border-radius: 0.16rem;
+    border: 0.04rem solid #ff5e30;
+	.addsucc_ins{
+		padding: 0.2rem 0 0.2rem 0;
+		margin-bottom: 0.3rem;
+		border-bottom: 0.02rem solid #f3f3f3;
+		p{
+			font-size: 0.26rem;
+			text-align: center;
+			line-height: 0.4rem;
+			font-weight: 700;
+		}
+	}
+	.btn {
+		font-size: 0.26rem;
+		width: 1.4rem;
+		height: 0.7rem;
+		line-break: 0.7rem;
+		text-align: center;
+		background-color: #ff5e30;
+		-webkit-border-radius: 0.14rem;
+		-moz-border-radius: 0.14rem;
+		border-radius: 0.14rem;
+		line-height: 0.7rem;
+		margin: 0.2rem auto;
+		color: #fff;
+	}
+}

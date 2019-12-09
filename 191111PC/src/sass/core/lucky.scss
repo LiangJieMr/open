@@ -1,0 +1,320 @@
+.lucky{
+	display: none;
+	width: 380px;
+	height: 544px;
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	margin-left: -178px;
+	margin-top: -272px;
+	box-sizing: border-box;
+	padding: 4px;
+	border-radius: 30px;
+	background: -webkit-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: -moz-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	.lucky_inner{
+		width: 100%;
+		height: 100%;
+		border-radius: 28px;
+		background: #fff;
+		text-align: center;
+		.huode{
+			display: none;
+			// overflow: hidden;
+			padding-top: 30px;
+			position: relative;
+			h1{
+				font-size: 35px;
+				letter-spacing: 2px;
+				color: #000;
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			.gongXi{
+				font-size: 15px;
+				color: #000;
+				letter-spacing: 1px;
+			}
+			.chaSHou{
+				font-size: 14px;
+				color: #657be5;
+				letter-spacing: 1px;
+				margin-top: 1px;
+			}
+			.lucky_img{
+				width: 219px;
+				height: 175px;
+				margin: 22px auto 8px;
+				padding-top: 43px;
+				background: url(../assets191111/img/jin.png) no-repeat;
+				color: #fff;
+				b{
+				  font-size: 60px;
+				  span{
+				    font-weight: normal;
+				    font-size: 29px;
+				  }
+				}
+				.con_btn{
+				  width: 100px;
+				  height: 32px;
+				  margin: 0 auto;
+				  background: #af61f7;
+				  border-radius: 20px;
+				  position: relative;
+				  p{
+				    font-size: 19px;
+				    color: #fff;
+				    width: 100%;
+				    height: 30px;
+				    line-height: 28px;
+				    margin: 0 auto;
+				    border-radius: 20px;
+				    background: #8c75f7;
+				    position: absolute;
+				    top: 2px;
+				    border-top: 2px solid #51448f;
+				  }
+				}
+			}
+			.lucky_intr{
+				width: 249px;
+				height: 36px;
+				line-height: 36px;
+				margin: 0 auto 34px;
+				font-size: 16px;
+				letter-spacing: 1px;
+				color: #000;
+				background: #fae8f7;
+				border-radius: 30px;
+				span{
+					font-size: 18px;
+					color: #fe623d;
+					font-weight: bold;
+				}
+			}
+			.start{
+				position: absolute;
+				right: 32px;
+				top: 156px;
+			}
+			.start_in{
+				font-size: 13px;
+				color: #9d9d9d;
+				position: absolute;
+				bottom: -109px;
+				left: 53px;
+			}
+		}
+		.miandan{
+			display: none;
+			padding-top: 30px;
+			position: relative;
+			h1{
+				font-size: 35px;
+				letter-spacing: 2px;
+				color: #000;
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			.gongXi{
+				font-size: 15px;
+				color: #000;
+				letter-spacing: 1px;
+			}
+			.chaSHou{
+				font-size: 14px;
+				color: #657be5;
+				letter-spacing: 1px;
+				margin-top: 1px;
+			}
+			.lucky_img{
+				width: 219px;
+				height: 175px;
+				margin: 22px auto 8px;
+				padding-top: 43px;
+				background: url(../assets191111/img/mianDan.png) no-repeat;
+				color: #fff;
+				b{
+				  font-size: 60px;
+				  span{
+				    font-weight: normal;
+				    font-size: 29px;
+				  }
+				}
+				.con_btn{
+				  width: 100px;
+				  height: 32px;
+				  margin: 0 auto;
+				  background: #af61f7;
+				  border-radius: 20px;
+				  position: relative;
+				  p{
+				    font-size: 19px;
+				    color: #fff;
+				    width: 100%;
+				    height: 30px;
+				    line-height: 28px;
+				    margin: 0 auto;
+				    border-radius: 20px;
+				    background: #8c75f7;
+				    position: absolute;
+				    top: 2px;
+				    border-top: 2px solid #51448f;
+				  }
+				}
+			}
+			.lucky_intr{
+				width: 249px;
+				height: 36px;
+				line-height: 36px;
+				margin: 0 auto 34px;
+				font-size: 16px;
+				letter-spacing: 1px;
+				color: #000;
+				background: #fae8f7;
+				border-radius: 30px;
+				span{
+					color: #fe623d;
+				}
+			}
+			.start{
+				position: absolute;
+				right: 32px;
+				top: 156px;
+			}
+			.start_in{
+				font-size: 13px;
+				color: #9d9d9d;
+				position: absolute;
+				bottom: -111px;
+				left: 31px;
+			}
+		}
+		.rpbf{
+			display: none;
+			padding-top: 30px;
+			position: relative;
+			h1{
+				font-size: 35px;
+				letter-spacing: 2px;
+				color: #000;
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			.gongXi{
+				font-size: 15px;
+				color: #000;
+				letter-spacing: 1px;
+			}
+			.chaSHou{
+				font-size: 14px;
+				color: #657be5;
+				letter-spacing: 1px;
+				margin-top: 1px;
+			}
+			.lucky_img{
+				width: 219px;
+				height: 175px;
+				margin: 22px auto 8px;
+				padding-top: 43px;
+				background: url(../assets191111/img/mianDan.png) no-repeat;
+				color: #fff;
+				b{
+				  font-size: 60px;
+				  span{
+				    font-weight: normal;
+				    font-size: 29px;
+				  }
+				}
+				.con_btn{
+				  width: 100px;
+				  height: 32px;
+				  margin: 0 auto;
+				  background: #af61f7;
+				  border-radius: 20px;
+				  position: relative;
+				  p{
+				    font-size: 19px;
+				    color: #fff;
+				    width: 100%;
+				    height: 30px;
+				    line-height: 28px;
+				    margin: 0 auto;
+				    border-radius: 20px;
+				    background: #8c75f7;
+				    position: absolute;
+				    top: 2px;
+				    border-top: 2px solid #51448f;
+				  }
+				}
+			}
+			.lucky_intr{
+				width: 249px;
+				height: 36px;
+				line-height: 36px;
+				margin: 0 auto 34px;
+				font-size: 16px;
+				letter-spacing: 1px;
+				color: #000;
+				background: #fae8f7;
+				border-radius: 30px;
+				span{
+					color: #fe623d;
+				}
+			}
+			.start{
+				position: absolute;
+				right: 32px;
+				top: 156px;
+			}
+			.zhu{
+				font-size: 13px;
+				color: #9d9d9d;
+				position: absolute;
+				bottom: -111px;
+				left: 66px;
+			}
+		}
+		.lucky_btn{
+			cursor: pointer;
+			width: 221px;
+			height: 46px;
+			text-align: center;
+			box-sizing: border-box;
+			padding: 3px;
+			border-radius: 30px;
+			background: -webkit-linear-gradient(to bottom,#3d54f6,#57b6f9);
+			background: -moz-linear-gradient(to bottom,#3d54f6,#57b6f9);
+			background: linear-gradient(to bottom,#3d54f6,#57b6f9);	
+			margin: 0 auto;
+			.lucky_btn_inn{
+				width: 100%;
+				height: 100%;
+				border-radius: 28px;
+				background: #fff;
+				line-height: 38px;
+				text-align: center;
+				color: #fff;
+				font-size: 20px;
+				letter-spacing: 2px;
+				background: -webkit-linear-gradient(to right,#3d54f6,#57b6f9);
+				background: -moz-linear-gradient(to right,#3d54f6,#57b6f9);
+				background: linear-gradient(to right,#3d54f6,#57b6f9);
+			}
+			.lucky_btn_inn:hover{
+				line-height: 40px;
+			}
+		}
+		.lupx{
+			font-size: 34px;
+			color: #a8a8a8;
+			position: absolute;
+			top: 6px;
+			right: 18px;
+			cursor: pointer;
+		}
+	}
+}

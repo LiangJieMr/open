@@ -1,0 +1,29 @@
+.regist-school{
+    padding: 0.5rem 0 0.13rem;
+    font-size: 0;
+    p{
+        padding-bottom: 0.44rem;
+        text-align: center;
+        font-size: 0.3rem;
+        color: #292929;
+    }
+    a{
+        display: inline-block;
+        width: 25%;
+        margin-bottom: 0.53rem;
+        text-align: center;
+    }
+    dl{
+       
+        dt{
+            margin-bottom: 0.12rem;
+            img{
+                width: 1.04rem;
+            }
+        }
+        dd{
+            font-size: 0.2rem;
+            color: #000;
+        }
+    }
+}

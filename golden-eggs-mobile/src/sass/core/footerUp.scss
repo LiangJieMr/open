@@ -1,0 +1,41 @@
+.footer-up {
+    background: #ececec;
+    background-image: url(../assets19zhounianqing/img/footerUp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.22rem;
+    padding-left: 0.24rem;
+    .footer-up-content {
+        color: #ffffff;
+        h4 {
+            font-size: 0.15rem;
+            line-height: 0.15rem;
+        }
+        p {
+            font-size: 0.1rem;
+            line-height: 0.1rem;
+            margin-bottom: 0.16rem;
+            margin-top: 0.06rem;
+        }
+        dl {
+            
+            dt,dd {
+                font-size: 0.1rem;
+                i {
+                    display: inline-block;
+                    width: 0.02rem;
+                    height: 0.02rem;
+                    border-radius: 50%;
+                    background-color: #f6ce46;
+                    vertical-align: middle;
+                    margin-right: 0.06rem;
+                }
+                em {
+                    color: #f6ce46;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.my-price{
+    display: none;
+    width: 1150px;
+    margin: 20px auto 0;
+    .line{
+        height: 19px;
+        background: url('../../assets191212/img/priceLine.png') center center no-repeat;
+        background-size: 100% 100%;
+    }
+    .box{
+        position: relative;
+        width: 1076px;
+        min-height: 30px;
+        margin: 0 auto;
+        padding: 48px 0 15px;
+        margin-top: -10px;
+        background-color: #ffde2a;
+        box-shadow: 0px 3px 13px 1px 
+        rgba(130, 43, 8, 0.11);
+        border-radius: 0px 0px 15px 15px;
+        font-size: 0;
+        .price{
+            width: 197px;
+            height: 169px;
+            margin-right: 73px;
+            margin-left: 60px;
+            vertical-align: middle;
+        }
+        
+        .infor{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            color: #080808;
+            dt{
+                font-size: 24px;
+                color: #ff4444;
+            }
+            .type{
+                margin: 2px 0 15px;
+            }
+            dd{
+                padding-left: 7px;
+            }
+            .tel{
+                margin: 5px 0;
+            }
+            em{
+                max-width: 420px;
+            }
+            em.has{
+                margin-right: 24px;
+            }
+            span,i,em{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            i{
+                width: 108px;
+                height: 25px;
+                line-height: 25px;
+                font-size: 14px;
+                text-align: center;
+                background-color: #f76300;
+                color: #fff;
+                cursor: pointer;
+            }
+            i:hover{
+                transform: scale(1.01);
+            }
+        }
+        .crossing{
+            width: 1006px;
+            height: 1px;
+            margin: 28px auto 17px;
+            background-color: rgba(250, 153, 0, 0.7);
+        }
+        .attention{
+            width: 1006px;
+            margin: 0 auto;
+            font-size: 15px;
+            color: #953f00;
+        }
+    }
+    
+}

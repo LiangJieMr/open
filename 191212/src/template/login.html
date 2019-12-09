@@ -1,0 +1,41 @@
+<div id="login" class="login-container">
+	<div class="com-masker"></div>
+	<div class="box">
+		<dl>
+			<dt>
+				<i id="closeLogin" class="iconfont close">&#xe624;</i>
+			</dt>
+			<dd class="title">
+				学员注册/登录
+			</dd>
+		</dl>
+		<form class="com-form">
+			<div>
+				<i class="iconfont con">&#xe69c;</i>
+				<input data-num='0' data-type="phoneNum" class="phone enter" placeholder="请输入手机号" type="text" maxlength="11"/>
+			</div>
+			<p  class="error"></p>
+			<div>
+				<i class="iconfont con">&#xe69e;</i>
+				<input data-num='1' data-type="imgCode" class="img-code enter" placeholder="请输入图形验证码" type="text" maxlength="4"/>
+				<img data-type="getImgCode" src="../assets191212/img/code.png" class="valid"  />
+			</div>
+			<p class="error"></p>
+			<div>
+				<i class="iconfont con">&#xe69f;</i>
+				<input data-num='2' data-type="phoneCode" class="code enter" placeholder="请输入手机验证码" type="text" maxlength="4"/>
+				<button data-type="getCode" class="getcode" type="button">获取验证码</button>
+			</div>
+			<p  class="error"></p>
+		</form>
+		<p class="login-error"></p>
+		<button data-type="submit" class="regist com-btn-hover" type="button">注册/登录</button>
+		<p class="warm">
+			<label for="privacyPolicy">
+				<input id="privacyPolicy" type="checkbox" checked="checked"/>
+				<i>勾选代表您已经阅读并同意</i>
+			</label>
+			<a href="/About/xieyi.html" target="_blank">《奥鹏教育隐私协议》</a><br />
+		</p>
+	</div>
+</div>

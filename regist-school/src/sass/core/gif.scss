@@ -1,0 +1,13 @@
+.gif{
+	display: none;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 99999;
+	width: 120px;
+	height: 150px;
+	img{
+		width: 100%;
+	}
+}

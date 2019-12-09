@@ -1,0 +1,40 @@
+.gift{
+    padding-top:0.19rem;
+    padding-bottom: 0.26rem;
+    background-color: #f7f7f7;
+    .inner{
+        width: 3.593333rem;
+        margin: 0 auto;
+        padding:0.35rem 0 0.473333rem 0;
+        background-color: #fff;
+        border-radius: 0.07rem;
+        box-shadow: 0 0.03rem 0.09rem 0.01rem #cbd4e1;
+    }
+    .title{
+        text-align: center;
+        font-size: 0.2rem;
+        color: #3882e0;
+    }
+    .line{
+        width:3.413333rem;
+        height: 1px;
+        margin: 0 auto;
+        margin-top: 0.226666rem;
+        margin-bottom: 0.21rem;
+        background-color: #dcdcdc;
+    }
+    .form{
+        dt{
+            padding:0 0.093333rem 0 0.2rem;
+            font-size: 0.15rem;
+            i{
+                position: relative;
+                top:-0.05rem;
+                font-size:0.2rem;
+                color: #fe1111;
+            }
+        }
+    }
+    @import './form'
+    
+}

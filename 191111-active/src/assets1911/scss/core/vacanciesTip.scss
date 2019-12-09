@@ -1,0 +1,40 @@
+.vacancies-tip{
+    display: none;
+    .outer{
+        position: fixed;
+        z-index: 10000;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    dl{
+        width: 4.53rem;
+        padding: 0.39rem 0 0.29rem;
+        background-color: #fff;
+        border: solid 0.04rem #1d8aff;
+        border-radius: 0.2rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    dt{
+        img{
+            width: 2.13rem;
+            height: 2.88rem;
+        }
+    }
+    .content{
+        padding: 0.21rem 0 0.34rem;
+        line-height: 0.3rem;
+        font-size: 0.21rem;
+        color: #373737;
+    }
+    .sure{
+        width: 3.48rem;
+        height: 0.74rem;
+        margin: 0 auto;
+        line-height: 0.74rem;
+        background: url('../img/sure.png') no-repeat center center/100% 100%;
+        font-size: 0.22rem;
+        color: #fff;
+    }
+}

@@ -1,0 +1,68 @@
+.award-box{
+    display: none;
+    .outer{
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        z-index: 10000;
+        height: 542px;
+        width: 650px;
+        margin-left: -325px;
+         margin-top: -271px;
+        background: url('../../assets191212/img/awardBg.png')  center center no-repeat;
+        background-size: 100% 100%;
+    }
+    .number{
+        dt{
+            width: 55px;
+            height: 52px;
+            position: absolute;
+            right: 45px;
+            top: 0px;
+            cursor: pointer;
+            background: url('../../assets191212/img/awardClose.png')  center center no-repeat;
+            background-size: 100% 100%;
+        }
+        dd{
+          position: absolute;
+          left: 50%;
+          top: 50px;
+          margin-left: -36px;
+          font-size: 35px;
+          font-weight: bold;
+          color: #fff;
+        }
+    }
+    .gift-box{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -120px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #0e0c0f;
+        .gift{
+            padding: 12px 0 8px;
+        }
+        img{
+            width: 180px;
+            height: 148px;
+        }
+        .option{
+           a{
+            display: inline-block;
+            margin-top: 13px;
+            width: 226px;
+            height: 54px;
+            line-height: 45px;
+            overflow: hidden;
+            font-size: 20px;
+            color: #fff;
+            background: url('../../assets191212/img/awardBtn.png') center center no-repeat;
+            background-size: 100% 100%;
+            cursor: pointer;
+           }
+        }
+    }
+}

@@ -1,0 +1,233 @@
+.focu{
+	width: 100%;
+	height: 930px;
+	background: url(../assets/img/zdbg.png);
+	background-position-x:center;
+	.focu_inner{
+		width: 1050px;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align:center;
+		.focu_titt{
+			width: 910px;
+			height: 132px;
+			margin: 50px auto 35px auto;
+			padding-top: 10px;
+			color: #b41b2f;
+			background: url(../assets/img/yxbg.png) no-repeat;
+			background-position: 8px -8px;
+			h1{
+				font-size:40px;
+				letter-spacing: 4px;
+			}
+			.steps {
+			  position: relative;
+			  margin-bottom: 20px;
+			  /*步骤描述*/
+				li.edu{
+					list-style-type: none;
+					font-size: 12px;
+					text-align: center;
+					width: 16.6%;
+					position: relative;
+					float: left;
+				}
+				li.edu:nth-child(1){
+					text-align: left;
+				}
+				/*步骤数字*/
+				li.edu:before {
+				  display: block;
+				  content: counter(none); /*设定计数器内容*/
+				  width: 16px;
+				  height: 16px;
+				  background-color: #b41b2f;
+				  line-height: 16px;
+				  border-radius: 16px;
+				  font-size: 16px;
+				  color: #b41b2f;
+				  text-align: center;
+				  font-weight: 700;
+				  margin: 0 auto 8px auto;
+				}
+				/*连接线*/
+				li.edu ~ li.edu:after {
+				  content: '';
+				  width: 100%;
+				  height: 1px;
+				  background-color: #b41b2f;
+				  position: absolute;
+				  left: -50%;
+				  top: 7px;
+				  z-index: 1; /*放置在数字后面*/
+				}
+				li.steps_two:before,li.steps_three:before,li.steps_four:before,li.steps_five:before{
+					width: 0px;
+					height: 0px;
+					color: #fff;
+				}
+			}
+			.focu_the{
+				width: 930px;
+				font-size: 22px;
+				color: #000;
+				span{
+					padding: 0 15px 0 15px;
+				}
+				i{
+					display: inline-block;
+					width: 270px;
+					height: 1px;
+					background: #b41b2f;
+					position: relative;
+					top: -7px;
+				}
+			}
+		}
+		.focu_school{
+			overflow: hidden;
+			text-align: left;
+			margin-bottom: 40px;
+			.focu_scl{
+				width: 318px;
+				height: 383px;
+				overflow: hidden;
+				float: left;
+				margin-right: 48px;
+				border: 2px solid #b12639;
+				.focu_scl_nk{
+					width: 318px;
+					cursor: pointer;
+					height: 203px;;
+					background: url(../assets/img/nanKai.png) no-repeat;
+					.focu_scl_nk_span{
+						float: left;
+						padding: 6px 18px;
+						color: #fff;
+						display: inline-block;
+						font-size: 25px;
+						background-color:rgba(52,91,212,.7);
+					}
+				}
+				.dl{
+					background: url(../assets/img/daLian.png) no-repeat;
+				}
+				.db{
+					background: url(../assets/img/dongBei.png) no-repeat;
+				}
+				.focu_scl_nk:hover{
+					 transform: scale(1.1);
+					 -ms-transform:scale(1.1);     /* IE 9 */
+					 -moz-transform:scale(1.1);     /* Firefox */
+					 -webkit-transform:scale(1.1); /* Safari 和 Chrome */
+					 -o-transform:scale(1.1);
+				}
+				.focu_tuiJian{
+					overflow: hidden;
+					margin: 14px 0 0 8px;
+					.tj{
+						display: inline-block;
+						font-size: 20px;
+						float: left;
+					}
+					.start{
+						width: 150px;
+						float: left;
+						height: 28px;
+						background: url(../assets/img/start.png);
+						background-size: 30px 30px;
+					}
+				}
+				.focu_youShi{
+					clear: both;
+					margin: 12px 0 14px 8px;
+					.ys{
+						display: inline-block;
+						font-size: 20px;
+						float: left;
+					}
+					.fys{
+						padding-right: 10px;
+						overflow: hidden;
+						font-size: 18px;
+						line-height: 22px;
+						letter-spacing: 1px;
+					}
+				}
+				.focu_btn{
+					width: 100%;
+					border-top: 2px solid #b12639;
+					.fz{
+						display: inline-block;
+						width: 50%;
+						cursor: pointer;
+						float: left;
+						background: #fff;
+						color: #b12639;
+						font-size: 18px;
+						line-height: 40px;
+						text-align: center;
+						height: 40px;
+					}
+					.btn_c{
+						background: #b12639;
+						color: #fff;
+					}
+				}
+			}
+			.focu_scl:nth-child(3){
+				margin-right: 0;
+			}
+		}
+		.links{
+			width:1050px;
+			height:155px;
+			overflow:hidden;
+			float:left;
+			.slideContainer {
+				position: relative;
+				z-index:0;
+				height:155px;
+				padding-top:11px;
+				overflow:hidden;
+				width:2000px;
+				li{
+					float:left;
+					width:150px;
+					display:inline;
+					text-align: center;
+					cursor: pointer;
+					margin-bottom: 16px;
+					span{
+						.sch{
+							font-size: 16px;
+							border: 1px solid #b12639;
+							padding: 2px 8px;
+							color: #000;
+						}
+					}
+				}
+			}
+			img {
+				display:block;
+				width:96px;
+				height:96px;
+				overflow:hidden;
+				margin: 0 auto 15px auto;
+			}
+		}
+		.foc_btn{
+			display: inline-block;
+			font-size: 22px;
+			line-height: 48px;
+			width: 328px;
+			height: 48px;
+			margin: 30px auto 0 auto;
+			background: #b12639;
+			color: #fff;
+			cursor: pointer;
+		}
+	}
+}
+
+

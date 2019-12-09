@@ -1,0 +1,154 @@
+.price-set{
+     width: 1196px;
+     margin: 87px auto 0;
+     .price-list,.price-person{
+        position: relative;
+        height: 329px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        
+     }
+     .price-list{
+         width: 921px;
+         float: left;
+     }
+     .price-person{
+         float: right;
+         width: 250px;
+     }
+     .inner{
+         height: 100%;
+         font-size: 0;
+         text-align: center;
+     }
+     .outer,.logo{
+        position: absolute;
+        left: 25px;
+        top: -18px;
+        height: 42px;
+        width: 207px;
+        background: url('../img/priceSet.png') center center no-repeat;
+        background-size:auto 100%;
+    }
+    .middle{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        margin-top: -123px;
+//      transform: translateY(-50%);
+    }
+    .explain{
+        position: absolute;
+        right: 17px;
+        top: 15px;
+        font-size: 14px;
+        i{
+           color: #ffad29;
+        }
+        em{
+            color: #ababab;
+        }
+    }
+    .gift{
+        display: inline-block;
+        vertical-align: middle;
+        dt{
+           width: 130px;
+           height: 112px;
+           margin-bottom: 14px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        label,span{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        label{
+            padding: 3px 7px;
+            margin-right: 8px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #ef2648;
+            border-radius: 4px;
+        }
+        dd{
+          font-size: 18px;
+          font-weight: bold;
+          color: #1b1b1b; 
+          i{
+              display: inline-block;
+              vertical-align: middle;
+              min-width: 120px;
+              max-width: 150px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+          }
+        }
+        .value{
+            margin-top: 20px;
+            font-size: 17px;
+            font-weight: normal;
+            color: #1b1b1b;
+        }
+    }
+    .gftone{
+        margin-right: 64px;
+        dt{
+            width: 195px;
+            height: 173px;
+        }
+        .value{
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #1b1b1b;
+        }
+    }
+    .gftthr{
+        margin:0 48px;
+    }
+    .price-person{
+         .outer,.logo{
+             left: 50%;
+             margin-left: -104px;
+             background: url('../img/pricePerson.png') center center no-repeat;
+             background-size:auto 100%;
+         }
+    }
+    .outer{
+        z-index: -1;
+        background: url('../img/reatBg.png') top center no-repeat ;
+        background-size:100% auto;
+    }
+    #demo{
+        height:265px;
+        width: 202px;
+        margin: 0 auto;
+        margin-top: 47px;
+        overflow-y: hidden;
+    }
+    .lists{
+        ul{
+            height: 100%;
+        }
+        li{
+            height: 30px;
+            font-size: 16px;
+        }
+        li.nostart{
+            height: 265px;
+            line-height: 265px;
+            font-size: 30px;
+            color:#ccc;
+        }
+        i{
+            float: left;
+        }
+        em{
+            float: right;
+        }
+    }
+}

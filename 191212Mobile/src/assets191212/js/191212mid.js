@@ -1,0 +1,1 @@
+window.location.replace('/activity/191212.html');

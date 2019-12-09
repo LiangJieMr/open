@@ -1,0 +1,370 @@
+@charset "utf-8";
+@import './core/basis.scss';
+@import './core/header.scss';
+@import './core/school.scss';
+@import './core/study.scss';
+@import './core/suspend.scss';
+@import './core/abnormal.scss';
+@import './core/for.scss';
+@import './core/lucky.scss';
+@import './core/tip.scss';
+@import './core/carnival.scss';
+@import './core/chest.scss';
+@import "./core/prize.scss";
+@import "./core/list.scss";
+@import "./core/fcrules.scss";
+@import "./core/login.scss";
+@import "./core/errorTip.scss";
+@import "./core/comForm.scss";
+@import "./core/footer.scss";
+body{
+    background: #020c80;
+	position: relative;
+	.FC{
+		display: block;
+	    width: 100%;
+		height: auto;
+		background: url(../assetsfc191111/img/khbg.png) #6220de no-repeat;
+		background-position-x: center;
+	    overflow: hidden;
+		position: relative;
+		.s2{
+			position: absolute;
+			right: -170px;
+			top: 1010px;
+		}
+		.s1{
+			position: absolute;
+			left: -72px;
+			top: 1610px;
+		}
+		.s3{
+			position: absolute;
+			right: -105px;
+			bottom: 370px;
+		}
+		.s4{
+			position: absolute;
+			left: 50px;
+			bottom: 380px;
+		}
+		.s5{
+			position: absolute;
+			left: 785px;
+			bottom: -60px;
+		}
+	}
+}
+.duqGkC{
+	// display: none;
+}
+.mask{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9998;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: Alpha(opacity=50);
+}
+.chestac{
+	animation:move 0.5s,0s infinite;
+	-webkit-animation:move 0.5s 0s infinite;
+	transform-origin:center center;
+	-webkit-transform-origin:center center;
+	 animation-iteration-count:1;  
+}
+#chestO1{
+	width: 312px;
+	height: 293px;
+	position: absolute;
+	top: 0px;
+	left: 42px;
+	z-index: 3;
+	cursor: url("../assetsfc191111/img/hand.png") 0 10, auto;
+}
+#chestO2{
+	width: 312px;
+	height: 293px;
+	position: absolute;
+	top: 0px;
+	left: 367px;
+	z-index: 3;
+	cursor: url("../assetsfc191111/img/hand.png") 0 10, auto;
+}
+#chestO3{
+	width: 312px;
+	height: 293px;
+	position: absolute;
+	top: 0px;
+	left: 693px;
+	z-index: 3;
+	cursor: url("../assetsfc191111/img/hand.png") 0 10, auto;
+}
+#chestOne1{
+	display: none;
+	width: 411px;
+	height: 361px;
+	position: absolute;
+	top: -70px;
+	left: -16px;
+	z-index: 3;
+}
+#chestOne2{
+	display: none;
+	width: 411px;
+	height: 361px;
+	position: absolute;
+	top: -70px;
+	left: 308px;
+	z-index: 3;
+}
+#chestOne3{
+	display: none;
+	width: 411px;
+	height: 361px;
+	position: absolute;
+	top: -70px;
+	left: 636px;
+	z-index: 3;
+}
+#ch1{
+	width: 365px;
+	height: 344px;
+	position: absolute;
+	top: -34px;
+	left: 13px;
+	z-index: 3;
+}
+#ch2{
+	width: 365px;
+	height: 344px;
+	position: absolute;
+	top: -34px;
+	left: 337px;
+	z-index: 3;
+}
+#ch3{
+	width: 365px;
+	height: 344px;
+	position: absolute;
+	top: -34px;
+	left: 665px;
+	z-index: 3;
+}
+.pack1{
+	display: none;
+	width: 210px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background: url(../assetsfc191111/img/dipack.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 120px;
+	left: 88px;
+	z-index: 4;
+	b{
+		font-weight: bold;
+		padding-right: 8px;
+		color: #f9e508;
+	}
+}
+.pack2{
+	display: none;
+	width: 210px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	background: url(../assetsfc191111/img/dipack.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 120px;
+	left: 412px;
+	z-index: 4;
+	b{
+		font-weight: bold;
+		padding-right: 8px;
+		color: #f9e508;
+	}
+}
+.pack3{
+	display: none;
+	width: 210px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background: url(../assetsfc191111/img/dipack.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 120px;
+	left: 740px;
+	z-index: 4;
+	b{
+		font-weight: bold;
+		padding-right: 8px;
+		color: #f9e508;
+	}
+}
+#pack{
+	display: block;
+}
+ #demo{
+   overflow:hidden;
+   height:165px;
+   float: left;
+   width:40%;
+   position:relative;
+  }
+  #demo1{
+   height:auto;
+   text-align:left;
+  }
+  #demo2{
+   height:auto;
+   text-align:left;
+  }
+  #demo1 li{
+	font-size: 18px;
+   list-style-type:none;
+   height:32px;
+   text-align:left;
+   text-indent:15px;
+   line-height: 32px;
+  }
+  #demo2 li{
+   list-style-type:none;
+   height:32px;
+   line-height: 32px;
+   text-align:left;
+   text-indent:15px;
+   font-size: 18px;
+  }
+  #dem{
+    overflow:hidden;
+    height:165px;
+	float: right;
+	margin-right: 31px;
+    width:40%;
+    position:relative;
+   }
+   #dem1{
+    height:auto;
+    text-align:left;
+   }
+   #dem2{
+    height:auto;
+    text-align:left;
+   }
+   #dem1 li{
+  	font-size: 18px;
+    list-style-type:none;
+    height:32px;
+    text-align:left;
+    text-indent:15px;
+    line-height: 32px;
+   }
+   #dem2 li{
+    list-style-type:none;
+    height:32px;
+    line-height: 32px;
+    text-align:left;
+    text-indent:15px;
+    font-size: 18px;
+   }
+@keyframes move
+{
+    0%{
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+    15% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    30% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    45% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    60% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    75% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    90% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+}
+
+@-webkit-keyframes move
+{
+    0%{
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+    15% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    30% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    45% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    60% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    75% {  
+      -webkit-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+    90% {  
+      -webkit-transform:rotate(-10deg);
+      transform:rotate(-10deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+}
+/* 弹窗公共动画--开始*/
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: bounceIn;
+}

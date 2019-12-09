@@ -1,0 +1,55 @@
+@import "./core/reset";
+@import "./core/header";
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding:100px 0 0 0;
+    button:active{
+        transform: scale(0.96);
+    }
+    button{
+        cursor: pointer;
+    }
+    a{
+         cursor: pointer;
+    }
+    a:active{
+       transform: scale(0.96);
+    }
+}
+.cur{
+	cursor: pointer;
+}
+.cur:hover{
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+.wechat{
+    cursor: pointer;
+}
+
+
+
+
+@import "./core/banner";
+@import "./core/education";
+@import "./core/focus";
+@import "./core/major";
+@import "./core/signup";
+@import "./core/process";
+@import "./core/formal";
+@import "./core/talent";
+@import "./core/learn";
+@import "./core/chance";
+@import "./core/bottom";
+@import "./core/article";
+@import "./core/ce";
+@import "./core/leftSuspend";
+@import "./core/rightSuspend";
+@import "./core/gif";
+
+
+
+

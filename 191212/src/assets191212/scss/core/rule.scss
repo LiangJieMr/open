@@ -1,0 +1,37 @@
+.rule-box{
+    position: relative;
+    min-height: 100px;
+    width: 1196px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 60px auto 39px;
+    font-size: 15px;
+    color: #353535;
+    dl{
+        position: relative;
+        padding: 51px 0 34px;
+    }
+    dt,p{
+        position: absolute;
+        left: 25px;
+        top: -18px;
+        height: 42px;
+        width: 207px;
+        background: url('../img/rule.png') center center no-repeat;
+        background-size:auto 100%;
+    }
+    p{
+        z-index: -1;
+        background: url('../img/reatBg.png') top center no-repeat;
+        background-size:100% auto;
+    }
+    dd{
+        padding-left: 48px;
+        line-height: 32px;
+    }
+    .state{
+        margin-top: 10px;
+        font-weight: bold;
+        color: #1e1e1e;
+    }
+}

@@ -1,0 +1,116 @@
+.for{
+	display: none;
+	width: 304px;
+	height: 396px;
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	margin-left: -152px;
+	margin-top: -178px;
+	box-sizing: border-box;
+	padding: 4px;
+	border-radius: 30px;
+	background: -webkit-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: -moz-linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	background: linear-gradient(to bottom left,#59bcf9,#3d53f6);
+	.for_inner{
+		width: 100%;
+		height: 100%;
+		border-radius: 28px;
+		background: #fff;
+		text-align: center;
+		.hude{
+			display: block;
+			overflow: hidden;
+			padding-top: 26px;
+			.for_img{
+				width: 219px;
+				height: 175px;
+				margin: 0 auto 22px;
+				padding-top: 43px;
+				background: url(../assets191111/img/jin.png) no-repeat;
+				color: #fff;
+				b{
+				  font-size: 60px;
+				  span{
+				    font-weight: normal;
+				    font-size: 29px;
+				  }
+				}
+				.con_btn{
+				  width: 100px;
+				  height: 32px;
+				  margin: 0 auto;
+				  background: #af61f7;
+				  border-radius: 20px;
+				  position: relative;
+				  p{
+				    font-size: 19px;
+				    color: #fff;
+				    width: 100%;
+				    height: 30px;
+				    line-height: 28px;
+				    margin: 0 auto;
+				    border-radius: 20px;
+				    background: #8c75f7;
+				    position: absolute;
+				    top: 2px;
+				    border-top: 2px solid #51448f;
+				  }
+				}
+			}
+			.for_intr{
+				text-align: left;
+				width: 182px;
+				height: auto;
+				margin: 0 auto 18px;
+				font-size: 14px;
+				letter-spacing: 1px;
+				color: #000;
+				line-height: 18px;
+				span{
+					color: #e25453;
+				}
+			}
+		}
+		.for_btn{
+			cursor: pointer;
+			width: 221px;
+			height: 46px;
+			text-align: center;
+			box-sizing: border-box;
+			padding: 3px;
+			border-radius: 30px;
+			background: -webkit-linear-gradient(to bottom,#3d54f6,#57b6f9);
+			background: -moz-linear-gradient(to bottom,#3d54f6,#57b6f9);
+			background: linear-gradient(to bottom,#3d54f6,#57b6f9);
+			margin: 0 auto;
+			.for_btn_inn{
+				width: 100%;
+				height: 100%;
+				border-radius: 28px;
+				background: #fff;
+				line-height: 38px;
+				text-align: center;
+				color: #fff;
+				font-size: 20px;
+				letter-spacing: 2px;
+				background: -webkit-linear-gradient(to right,#3d54f6,#57b6f9);
+				background: -moz-linear-gradient(to right,#3d54f6,#57b6f9);
+				background: linear-gradient(to right,#3d54f6,#57b6f9);
+			}
+			.for_btn_inn:hover{
+				line-height: 40px;
+			}
+		}
+		.forpx{
+			font-size: 34px;
+			color: #a8a8a8;
+			position: absolute;
+			top: 10px;
+			right: 22px;
+			cursor: pointer;
+		}
+	}
+}

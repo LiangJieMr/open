@@ -1,0 +1,73 @@
+.banner-box{
+    position: relative;
+    height: 1140px;
+    background-color:#e63752;
+    background: url('../../assets191212/img/banner.png') top center no-repeat;
+    background-size: auto 100%;
+    img.banner{
+        width: 100%;
+    }
+    img.title{
+        position: relative;
+        left: 50%;
+        margin-left: -472px;
+        top: 212px;
+    }
+    .time{
+        margin-top:190px;
+        text-align: center;
+        font-size: 0;
+        color: #fff;
+        dt{
+            font-size: 23px;
+            
+            i,span{
+                vertical-align: middle;
+            }
+            i{
+                display: inline-block;
+                width: 70px;
+                height: 2px;
+                background-color: #ffffff;
+                border-radius: 0px;
+            }
+            span{
+                margin: 0 45px;
+            }
+        }
+        .explain{
+            padding:8px 0 34px;
+            font-size: 20px;
+        }
+        .start{
+            margin-bottom: 15px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        dd.over{
+            margin-top: 10px;
+        }
+        dd{
+            i,em{
+                vertical-align: middle;
+            }
+            i{
+                display: inline-block;
+                width: 57px;
+                height: 57px;
+                background-color: #c50c2b;
+                border-radius: 8px;
+                background: url('../../assets191212/img/time.png') center center no-repeat;
+                background-size: 100% 100%;
+            }
+            i{
+                font-size: 29px;
+                line-height: 57px;
+            }
+            em{
+                margin: 0 18px;
+                font-size: 19px;
+            }
+        }
+    }
+}

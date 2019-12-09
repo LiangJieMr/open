@@ -1,0 +1,60 @@
+.posters{
+	// 464 913
+	display: none;
+	width: 371px;
+	height: 730px;
+	background: transparent;
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	margin-left: -185px;
+	margin-top: -365px;
+	.posterspx{
+		cursor: pointer;
+		color: #fff;
+		position: absolute;
+		top: 0px;
+		right: 5px;
+		font-size: 32px;
+	}
+	.posters_img{
+		width: 100%;
+		height: 660px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.posters_btn{
+		cursor: pointer;
+		width: 230px;
+		height: 52px;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 3px;
+		border-radius: 30px;
+		background: -webkit-linear-gradient(to bottom,#3d54f6,#57b6f9);
+		background: -moz-linear-gradient(to bottom,#3d54f6,#57b6f9);
+		background: linear-gradient(to bottom,#3d54f6,#57b6f9);
+		margin: 26px auto 0;
+		.posters_btn_inn{
+			display: block;
+			width: 100%;
+			height: 100%;
+			border-radius: 28px;
+			background: #fff;
+			line-height: 42px;
+			text-align: center;
+			color: #fff;
+			font-size: 20px;
+			letter-spacing: 2px;
+			background: -webkit-linear-gradient(to right,#3d54f6,#57b6f9);
+			background: -moz-linear-gradient(to right,#3d54f6,#57b6f9);
+			background: linear-gradient(to right,#3d54f6,#57b6f9);
+		}
+		.posters_btn_inn:hover{
+			line-height: 44px;
+		}
+	}
+}

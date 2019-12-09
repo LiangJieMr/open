@@ -1,0 +1,44 @@
+.net-wrong-tip1{
+    display: none;
+    .outer{
+      
+       position: fixed;
+       z-index: 10000;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       
+   }
+   dl{
+       width: 5.7rem;
+       padding: 0.78rem 0 0.6rem;
+       background-color: #ffffff;
+       border: solid 0.04rem #1d8aff;
+       border-radius: 0.2rem;
+       overflow: hidden;
+       text-align: center;
+   }
+   dt{
+        width: 2.06rem;
+        height: 2.06rem;
+        margin: 0 auto;
+       img{
+          height: 100%;
+          width: 100%;
+       }
+   }
+   .content{
+       padding: 0.43rem 0 0.31rem;
+       font-size: 0.34rem;
+       color: #262626;
+   }
+   .sure{
+       width: 3.71rem;
+       height: 0.8rem;
+       line-height: 0.8rem;
+       margin: 0 auto;
+       background: url('../img/sure.png') no-repeat center center/100% 100%;
+       font-size:0.34rem;
+       color: #fff;
+   }
+}

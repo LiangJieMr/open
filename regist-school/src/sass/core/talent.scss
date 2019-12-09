@@ -1,0 +1,108 @@
+.talent{
+	width: 100%;
+	height: 769px;
+	background: #fff;
+	background-position-x:center;
+	.talent_inner{
+		width: 1050px;
+		margin: 0 auto;
+		padding-top: 50px;
+		.talent_tit{
+			padding-top: 15px;
+			width: 990px;
+			overflow: hidden;
+			margin: 0 auto 50px auto;
+			text-align: center;
+			background: url(../assets/img/hcbg.png) no-repeat;
+			.ta_tit_top{
+				border-bottom: 1px solid #b41b2f;
+				h1{
+					font-size: 40px;
+					color: #b41b2f;
+					letter-spacing: 3px;
+					padding-bottom: 6px;
+				}
+			}
+			p{
+				padding-top: 5px;
+				font-size: 22px;
+				letter-spacing: 2px;
+			}
+		}
+		.talent_con{
+			width: 100%;
+			height: 391px;
+			position: relative;
+			background: url(../assets/img/miJi.png) no-repeat;
+			.talent_con_list{
+				.ta_list_p{
+					font-size: 18px;
+					color: #b41b2f;
+					letter-spacing: 1px;
+					margin-bottom: 18px;
+					cursor: pointer;
+				}
+				.ta_list_div{
+					display: none;
+					font-size: 16px;
+					.ta_ls_mj{
+						display: inline-block;
+						color: #fff;
+						letter-spacing: 2px;
+						padding: 2px 5px;
+						background: #b12639;
+						border-radius: 5px;
+						float: left;
+						margin-right: 8px;
+					}
+					.ta_ls_div{
+						float: left;
+						p{
+							letter-spacing: 1px;
+							line-height: 20px;
+						}
+						p:first-child{
+							padding-top: 4px;
+						}
+					}
+				}
+			}
+			.talent_con_list:first-child{
+				position: absolute;
+				top: 215px;
+				left: 35px;
+			}
+			.talent_con_list:nth-child(2){
+				position: absolute;
+				top: 69px;
+				left: 40px;
+			}
+			.talent_con_list:nth-child(3){
+				position: absolute;
+				top: 18px;
+				left: 560px;
+			}
+			.talent_con_list:nth-child(4){
+				position: absolute;
+				top: 142px;
+				left: 660px;
+			}
+			.talent_con_list:nth-child(5){
+				position: absolute;
+				top: 271px;
+				left: 680px;
+			}
+		}
+		.talent_btn{
+			display: block;
+			text-align: center;
+			width: 398px;
+			font-size: 22px;
+			margin: 55px auto 0 auto;
+			height: 48px;
+			line-height: 48px;
+			color: #fff;
+			background: #b12639;
+		}
+	}
+}

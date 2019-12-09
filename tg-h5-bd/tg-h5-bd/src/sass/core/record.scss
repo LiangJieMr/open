@@ -1,0 +1,18 @@
+.record{
+    padding: 0.166666rem 0 0.2rem 0;
+    background-color:#2a2a2a;
+    text-align: center;
+    color: #fff;
+    .name{
+        font-size:0.15rem;
+    }
+    .copyright{
+        padding:0.083333rem 0 0 0;
+    }
+    .rg-num{
+        padding:0.1rem 0 0.1rem 0;
+    }
+    .copyright,.rg-num,.rec-num{
+        font-size:0.1rem;
+    }
+}

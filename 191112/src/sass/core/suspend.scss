@@ -1,0 +1,71 @@
+.sus{
+	width: 119px;
+	height: 319px;
+	position: fixed;
+	right: 68px;
+	top: 50%;
+	margin-top: -160px;
+	z-index: 9998;
+	background: url(../assetsfc191111/img/xuanFu.png) no-repeat;
+	.sus_ul{
+		width: 115px;
+		margin: 0 auto;
+		padding-top: 70px;
+		li{
+			cursor: pointer;
+			font-size: 15px;
+			line-height: 35px;
+			text-align: center;
+			border-bottom: 1px solid #0026c5;
+			color: #f1f1f1;
+			a{
+				color: #f1f1f1;
+			}
+			.wx-code{
+			    display: none;
+			    position: absolute;
+			    right: 125px;
+			    top: 110px;
+			    height: 102px;
+			    width: 102px;
+			    line-height: 102px;
+			    text-align: center;
+			    background-color: #f0f0f0;
+			    border-radius: 5px;
+			    .arrow{
+			        position: absolute;
+			        right: -24px;
+			        top:50%;
+			        margin-top: -12px;
+			        width: 0px;
+			        height: 0px;
+			        border-width:12px;
+			        border-style:solid;
+			        border-color:transparent transparent transparent #f0f0f0;
+			    }
+			    img{
+			        height: 84px;
+			        width: 84px;
+			        vertical-align: middle;
+			    }
+			}
+		}
+		li:hover{
+			color: #fffc06;
+		}
+		li:hover a{
+			color: #fffc06;
+		}
+		li.WX:hover .wx-code{
+			display: block;
+		}
+		li:last-child{
+			margin-top: 7px;
+			border-bottom: none;
+			line-height: 22px;
+			span{
+				color: #ffce58;
+			}
+		}
+	}
+}

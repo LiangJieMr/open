@@ -1,0 +1,96 @@
+/* 弹窗公共动画--开始*/
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(.3)
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05)
+    }
+    70% {
+        transform: scale(.9)
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.bounceIn {
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-name: bounceIn;
+}
+/* 弹窗公共动画--结束*/
+@keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-2000px)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+
+    80% {
+        transform: translateY(-50px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+.bounceInDown {
+     animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: bounceInDown
+}
+
+ @keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(5deg);
+    }
+    15% {
+        transform: rotate(-5deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    35% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 公共半透明遮罩--开始 */
+.com-masker{
+//  display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media \0screen {
+    .com-masker {
+        background-color: #000;
+        filter: Alpha(opacity=50);
+    }
+}
+/* 公共半透明遮罩--结束 */

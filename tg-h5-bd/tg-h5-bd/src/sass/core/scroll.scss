@@ -1,0 +1,39 @@
+ .scroll{
+        text-align: center;
+        margin-top:0.126666rem;
+    .speaker{
+        display: inline-block;
+        font-size: 0.2rem;
+        color: #ff0d35;
+        vertical-align: middle;
+    }
+    span{
+         display: inline-block;
+        font-size: 0.116666rem;
+        vertical-align: middle;
+        margin: 0 0.05rem 0 0.04rem;
+    }
+    .info{
+        position: relative;
+        display: inline-block;
+        width:calc(100% - 1.75rem);
+        height: 0.16rem;
+        overflow-y: hidden;
+        vertical-align:middle;
+        font-size: 0.12rem;
+        color: #ff0d35;
+        ul{
+            position: absolute;
+            top: 0;
+            li{
+                height: 0.16rem;
+//              margin-bottom: 0.05rem;
+                white-space: nowrap;
+                text-align: left;
+            }
+        }
+    }
+    .info::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+.rsu{
+  position: fixed;
+  top: 200px;
+  right: 65px;
+  z-index: 99997;
+  //position: relative;
+  .rsu_ul{
+    li{
+      text-align: center;
+      width: 128px;
+      height: 36px;
+      cursor: pointer;
+      line-height: 36px;
+      background: #0073a4;
+      font-size: 17px;
+      color: #fff;
+      margin-bottom: 5px;
+      .ryc{
+        position: absolute;
+        top: -57px;
+        left: -50px;
+      }
+    }
+    li:first-child{
+      position: relative;
+    }
+    li:nth-child(8){
+      background: #e45c7a;
+    }
+    li:last-child{
+      background: #5f5f5f;
+    }
+    li:hover{
+      color: #ffde28;
+    }
+  }
+}

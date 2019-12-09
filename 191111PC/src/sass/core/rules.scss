@@ -1,0 +1,51 @@
+.rules{
+  width: 1050px;
+  height: 194px;
+  margin: 0 auto 30px;
+  border: 1px dashed #009de2;
+  .rules_dl{
+    padding-top: 17px;
+	overflow: hidden;
+    dt{
+      float: left;
+      text-align: center;
+      font-weight: bold;
+      width: 102px;
+      height: 105px;
+      font-size: 22px;
+      color: #fff;
+      background: #561398;
+      border-radius: 50%;
+      margin: 23px 33px 0 43px;
+      position: relative;
+      div{
+        width: 83px;
+        height: 85px;
+        background: #d41dbc;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        p{
+          padding-top: 13px;
+          line-height: 28px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+      }
+    }
+    dd{
+	  width: 862px;
+      font-size: 13px;
+      color: #e3e4ea;
+      float: left;
+      p{
+        line-height: 16px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

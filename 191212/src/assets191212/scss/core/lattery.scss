@@ -1,0 +1,69 @@
+.lattery-box{
+    position: relative;
+    left: 50%;
+    margin-top: -430px;
+    margin-left: -311px;
+    width: 630px;
+    height: 630px;
+    font-size: 0;
+    background: url('../../assets191212/img/latteryBg.png')  center center no-repeat;
+    background-size:100% 100%;
+    .outer{
+        width: 618px;
+        height: 616px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -309px;
+        margin-top: -303px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        img.hide{
+            display: none;
+        }
+    }
+    .inner{
+        width: 518px;
+        height: 516px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -259px;
+        margin-top: -259px;
+    }
+    .point{
+        width: 190px;
+        height: 244px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -95px;
+        margin-top: -122px;
+        background: url('../../assets191212/img/latteryPoint.png') center center no-repeat;
+        background-size:100% 100%;
+        cursor: pointer;
+        i{
+         position: absolute;
+         top: 75px;
+         left: 0;
+         width: 100%;
+         font-size: 47px;
+         color: #fff; 
+        }
+        em{
+             position: absolute;
+             top: 85px;
+             left: 0;
+             line-height: normal;
+             width: 100%;
+             font-size: 22px;
+             color: #fff;
+        }
+    }
+    .point:active{
+        transform: scale(0.95);
+    }
+}

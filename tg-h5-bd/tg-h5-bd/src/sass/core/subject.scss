@@ -1,0 +1,113 @@
+.subject {
+    padding: 0.316666rem 0 0.306666rem 0;
+    .title {
+        margin-bottom: 0.226666rem;
+        text-align: center;
+        font-size: 0.2rem;
+        color: #3882e0;
+    }
+    .box {
+        width: 2.733333rem;
+        margin: 0 auto;
+    }
+    .box:after {
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        content: '';
+        vertical-align: top;
+    }
+    .box-ant {
+        width: 3.156666rem;
+        margin: 0 auto;
+    }
+    .box-ant:after {
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        content: '';
+        vertical-align: top;
+    }
+    .box,
+    .box-ant {
+        margin-bottom: 0.166666rem;
+        text-align: justify;
+        text-align-last: justify;
+        text-justify: inter-ideograph;
+        font-size: 0;
+        button {
+            width: 0.793333rem;
+            height: 0.26rem;
+            text-align: center;
+            text-align-last: center;
+            font-size: 0.11rem;
+            color: #3882e0;
+            border: 1px dashed #4a8adc;
+            background-color: transparent;
+        }
+    }
+    .box-ant button {
+        width: 0.696666rem;
+        height: 0.26rem;
+    }
+    .chat {
+        width: 3.3rem;
+        margin: 0 auto;
+        padding-top: 0.09rem;
+        text-align: justify;
+        text-align-last: justify;
+        text-justify: inter-ideograph;
+        button {
+            padding: 0.1rem 0.05rem;
+            text-align: center;
+            text-align-last: center;
+            background-color: #4d8ddf;
+            background: linear-gradient( to bottom, rgba(79, 143, 224, 1) 0%, rgba(56, 121, 205, 1) 100%);
+            border: 1px solid #236dc8;
+            border-radius: 0.05rem;
+            font-size: 0.106666rem;
+            color: #fff;
+            white-space: nowrap;
+            i {
+                display: inline-block;
+                height: 0.05rem;
+                width: 0.05rem;
+                margin-left: 0.05rem;
+                border-radius: 50%;
+                background-color: #fff;
+                vertical-align: middle;
+            }
+            i.cir-1 {
+                background-color: #00ffe4;
+            }
+            i.cir-2 {
+                background-color: #fffc00;
+            }
+            i.cir-3 {
+                background-color: #5eff80;
+            }
+        }
+    }
+    .chat:after {
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        content: '';
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .chat {
+        width: 3.3rem !important;
+        button {
+            padding: 0.1rem 0.02rem !important;
+        }
+        i {
+            display: none !important;
+        }
+    }
+}

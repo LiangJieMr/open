@@ -1,0 +1,69 @@
+.banner{
+    padding:0.706666rem 0.48rem 0.293333rem 0.48rem;
+    background-color:#2e68b0;
+    background: linear-gradient( to bottom, rgba(2, 73, 160, 1) 0%, rgba(132, 166, 209,1) 50%, rgba(255, 255, 255,0) 100%);
+    text-align: center;
+    .logo{
+        width: 0.516666rem;
+        height: 0.466666rem;
+        margin-bottom: 0.21rem;
+    }
+    .cor-wight{
+        color: #fff;
+    }
+    .title{
+        font-size: 0.366666rem;
+        margin: 0 0 0.136666rem 0;
+    }
+    .sub-title{
+        font-size: 0.33rem;
+    }
+    .line{
+        width: 1.946666rem;
+        margin: 0 auto;
+        margin-top: 0.12rem;
+        margin-bottom: 0.03rem;
+        border-top:1px solid #305bcb;
+        border-bottom: 1px solid #78a9eb;
+        
+    }
+    .graduate{
+       font-size:0.12rem;
+       span{
+           vertical-align: middle;
+       }
+       i{
+           display: inline-block;
+           height: 0.033333rem;
+           width: 0.033333rem;
+           margin: 0 0.02rem;
+           border-radius: 50%;
+           background-color: #fff;
+           vertical-align: middle;
+       }
+    }
+    .year{
+        padding: 0.19rem 0 0.196666rem 0;
+        font-size: 0.15rem;
+        color: #002c62;
+    }
+    .opt{
+        a{
+            display: block;
+            height: 0.35rem;
+            line-height: 0.35rem;
+            font-size: 0.15rem;
+            color: #fff;
+            border: 1px solid #236dc8;
+            background-color: #3f80d3;
+            border-radius: 0.03rem;
+            background: linear-gradient( to bottom, rgba(79, 143, 224, 1) 0%,rgba(56, 121, 205,1) 100%);
+        }
+        a:active{
+            transform: scale(0.96);
+        }
+        .school{
+            margin: 0.14rem 0;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+window.location.replace('/activity/fc191111.html');

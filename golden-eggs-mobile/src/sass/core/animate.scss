@@ -1,0 +1,38 @@
+/* 弹窗公共动画--开始*/
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: bounceIn;
+}
+/* 弹窗公共动画--结束*/
+
+/* 公共半透明遮罩--开始 */
+.com-masker{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media \0screen {
+    .com-masker {
+        background-color: #000;
+        filter: Alpha(opacity=50);
+    }
+}
+/* 公共半透明遮罩--结束 */
+
+@keyframes wobble{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.wobble{animation: wobble 2s infinite;}

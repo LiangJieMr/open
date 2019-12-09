@@ -1,0 +1,672 @@
+@import './core/reset.scss';
+@import './core/animate.scss';
+@import './core/footerUp.scss';
+@import './core/login.scss';
+html, body {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+html {
+    body {
+        .time {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            color: #fff;
+            background-color: #252525;
+            font-size: 0;
+            z-index: 996;
+            text-align: center;
+            .count-down-t {
+                font-size: 0.12rem;
+                vertical-align: middle;
+                margin-right: 0.12rem;
+                padding: 0.05rem 0.1rem;
+                background: url(../assets19zhounianqing/img/time.png) no-repeat center;
+                background-size: 100%;
+                p {
+                    display: inline-block;
+                }
+            }
+            .time1 {
+                display: inline-block;
+                width: 0.1496rem;
+                height: 0.25rem;
+                line-height: 0.25rem;
+                text-align: center;
+                background-color: #000000;
+                font-size: 0.20rem;
+                margin-left: 0.03rem;
+                vertical-align: middle;
+            }
+            em {
+                font-size: 0.12rem;
+                vertical-align: middle;
+                margin-left: 0.04rem;
+                margin-right: 0.02rem;
+            }
+        }
+        .body {
+            background-color: #f6ce46;
+            .body-top {
+                background: url(../assets19zhounianqing/img/body-bkg.png) no-repeat center top;
+                background-size: 100%;
+                min-height: 3.78rem;
+                overflow: hidden;
+                .body-top-content {
+                    padding-top: 0.4rem;
+                    a {
+                        padding-top: 0.01rem;
+                        position: relative;
+                        top: 0.2rem;
+                        img {
+                            margin-left: 0.16rem;
+                            width: 0.94rem;
+                            height: 0.2rem;
+                        }
+                    }
+                    .title {
+                        width: 3.43rem;
+                        margin: auto;
+                        display: block;
+                    }
+                }
+                .body-wt {
+                    height: 1.5rem;
+                    background: url(../assets19zhounianqing/img/wt.png) no-repeat center top;
+                    background-size: 100%;
+                    margin-top: 0.8rem;
+                    #z-egg {
+                        position: relative;
+                        width: 100%;
+                        top: -0.7rem;
+                        li {
+                            position: absolute;
+                            img {
+                                width: 0.8rem;
+//                              height: 1.36rem;
+                            }
+                        }
+                        .cl-1 {
+                            left: 0.26rem;
+                        }
+                        .cl-2 {
+                            left: 1.5rem;
+                            top: 0.24rem;
+                        }
+                        .cl-3 {
+                            right: 0.24rem;
+                        }
+                        .active-1, .active-2, .active-3{
+                            img {
+                                width: 1.81rem;
+                            }
+                        }
+                        .active-1 {
+                            left: -0.2rem;
+                            top: 0.24rem;
+                        }
+                        .active-2 {
+                            left: 1.04rem;
+                            top: 0.44rem;
+                        }
+                        .active-3 {
+                            right: -0.32rem;
+                            top: 0.22rem;
+                        }
+                    }
+                }
+            }
+            .gift-list {
+                width: 3.48rem;
+                margin: auto;
+                font-size: 0;
+                padding-bottom: 0.17rem;
+                margin-top: 0.09rem;
+                .l, .r {
+                    border-radius: 0.03rem;
+                    overflow: hidden;
+                    margin-bottom: 0.07rem;
+                }
+                .l {
+                    dl {
+                        min-height: 1.19rem;
+                        padding: 0.12rem 0.06rem;
+                        .count {
+                            padding: 0.04rem 0.08rem;
+                            background:url(../assets19zhounianqing/img/count.png) no-repeat center;
+                            background-size: 100%;
+                            font-size: 0.1rem;
+                            position: relative;
+                            top: -0.02rem;
+                            color: #fff;
+                        }
+                        dt {
+                            width: 1.31rem;
+                        }
+                        dd:first-of-type {
+                            margin: 0 0.05rem;
+                        }
+                        dd {
+                            min-width: 0.96rem;
+                            div {
+                                width: 0.87rem;
+                                height: 0.82rem;
+                                background: url(../assets19zhounianqing/img/gift-bkg.png) no-repeat center top;
+                                background-size: 100%;
+                                margin: auto;
+                                color: #fff;
+                                em, span, i {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                }
+                                em {
+                                    margin-top: 0.16rem;
+                                    font-size: 0.12rem;
+                                    margin-left: 0.09rem;
+                                }
+                                span {
+                                    font-size: 0.26rem;
+                                    margin-top: 0.1rem;
+                                }
+                                i { 
+                                    
+                                    font-size: 0.1rem;
+                                    width: 0.1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .item1, .item2 {
+                    h4 {
+                        height: 0.38rem;
+                        line-height: 0.38rem;
+                        text-align: center;
+                        font-size: 0.16rem;
+                        background-color: #f9e369;
+                    }
+                    dl {
+                        background-color: #fbeda5;
+                        font-size: 0;
+                        dt, dd {
+                            display: inline-block;
+                            img {
+                                display: block;
+                                margin: auto;
+                                margin-bottom: 0.14rem;
+                            }
+                            h5 {
+                                font-size: 0.13rem;
+                                text-align: center;
+                            }
+                            p {
+                                font-size: 0.1rem;
+                                text-align: center;
+                            }
+                        }
+                        dt {
+                            img {
+                                width: 0.71rem;
+                            }
+                        }
+                        dd {
+                            img {
+                                width: 0.87rem;
+                            }
+                        }
+                    }
+                }
+                .item2 {
+                    display: none;
+                    dl {
+                        position: relative;
+                        dt, dd {
+                            display: block;
+                        }
+                        dt {
+                            p {
+                                background-color: #f9e369;
+                                font-size: 0.16rem;
+                                height: 0.36rem;
+                                line-height: 0.36rem;
+                            }
+                        }
+                        dd {
+                            padding: 0.13rem 0;
+                            min-height: 0.91rem;
+                            .form, img {
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                            img {
+                                margin-left: 0.15rem;
+                                margin-right: 0.27rem;
+                                margin-bottom: 0;
+                                display: none;
+                            }
+                            .gift-left-img {
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 0.87rem;
+                                height: 0.82rem;
+                                background: url(../assets19zhounianqing/img/gift-bkg.png) no-repeat center;
+                                background-size: 100%;
+                                color: #fff;
+                                margin: 0 0.13rem;
+                                display: none;
+                                em, span, i {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                }
+                                em {
+                                    margin-top: 0.2rem;
+                                    font-size: 0.12rem;
+                                    margin-left: 0.09rem;
+                                }
+                                span {
+                                    margin-top: 0.2rem;
+                                    font-size: 0.26rem;
+                                }
+                                i { 
+                                    margin-top: 0.1rem;
+                                    font-size: 0.12rem;
+                                    width: 0.1rem;
+                                }
+                            }
+                            .form {
+                                width: 2.1rem;
+                                div {
+                                    font-size: 0.12rem;
+                                    span, label {
+                                        display: inline-block;
+                                    }
+                                }
+                                .form-1 {
+                                    margin-bottom: 0.12rem;
+                                }
+                                .form-2, .form-3{
+                                    label {
+                                        width: 0.6rem;
+                                        text-align: right;
+                                    }
+                                    span {
+                                        width: 1.03rem;
+                                        border-bottom: 0.01rem solid #535353;
+                                    }
+                                }
+                                .form-3 {
+                                    margin: 0.07rem 0;
+                                }
+                                .form-4 {
+                                    label {
+                                        vertical-align: top;
+                                    }
+                                    span {
+                                        width: 1.4rem;
+                                    }
+                                }
+                            }
+                            .make {
+                                position: absolute;
+                                right: 0;
+                                top: 0.07rem;
+                                text-align: center;
+                                color: #fff;
+                                background-color: #4063bf;
+                                font-size: 0.12rem;
+                                padding: 0.04rem 0.12rem;
+                            }
+                        }
+                    }
+                }
+                .r {
+                    border-radius: 0.03rem;
+                    overflow: hidden;
+                    h4, .list-content {
+                        display: inline-block;
+                        vertical-align: top;
+                    } 
+                    h4 {
+                        width: 0.8rem;
+                        background-color: #f9e369;
+                    }
+                    .list-content {
+                        width: 2.38rem;
+                        height: 0.38rem;
+                        padding: 0 0.15rem;
+                        background-color: #fbeda5;
+                        .list-over {
+                            height: 0.38rem;
+                            position: relative;
+                            overflow: hidden;
+                            position: relative;
+                            .list {
+                                height: 0.38rem;
+                                line-height: 0.38rem;
+                                font-size: 0.12rem;
+                                width: 100%;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                li {
+                                    margin-right: 0.1rem;
+                                    text-align: center;
+                                    font-size: 0.12rem;
+                                    span {
+                                        margin-right: 0.06rem;
+                                    }
+                                }
+                            }
+                            .no-content {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                text-align: center;
+                                font-size: 0.16rem;
+                                line-height: 0.38rem;
+                            }
+                        }
+                    }
+                }
+                .item3 {
+                    margin-top: 0.08rem;
+                    background-color: #fbeda5;
+                    h5 {
+                        height: 0.38rem;
+                        line-height: 0.38rem;
+                        text-align: center;
+                        font-size: 0.16rem;
+                        background-color: #f9e369;
+                    }
+                    ol, div {
+                        padding: 0 0.14rem;
+                    }
+                    ol {
+                        padding-top: 0.09rem;
+                        li {
+                            font-size: 0.12rem;
+                        }
+                    }
+                    div {
+                        padding-bottom: 0.14rem;
+                        font-size: 0.12rem;
+                    }
+                }
+            }
+        }
+    }
+    .major {
+        padding: 0.29rem 0.16rem 0.27rem 0.16rem;
+        background-color: #133187;
+        color: #fff;
+        h4, p {
+            text-align: center;
+        }
+        h4 {
+            font-size: 0.18rem;
+        }
+        p {
+            font-size: 0.12rem;
+            margin-top: 0.06rem;
+            margin-bottom: 0.16rem;
+            em {
+                width: 0.5rem;
+                display: inline-block;
+                height: 0.01rem;
+                background-color: #fff;
+                vertical-align: middle;
+            }
+        }
+        ul {
+            font-size: 0;
+            li {
+                display: inline-block;
+                margin-bottom: 0.07rem;
+                a {
+                    img {
+                        width: 1.68rem;
+                    }
+                }
+            }
+            .major-l {
+                margin-right: 0.06rem;
+            }
+        }
+        .major-btn {
+            margin: auto;
+            font-size: 0;
+            border-radius: 0.17rem;
+            overflow: hidden;
+            margin-top: 0.12rem;
+            .bt1, .bt2 {
+                width: 1.71rem;
+                height: 0.34rem;
+                line-height: 0.34rem;
+                display: inline-block;
+                font-size: 0.12rem;
+                text-align: center;
+            }
+            .bt1 {
+                color: #050505;
+                background-color: #f6ce46;
+            }
+            .bt2 {
+                color: #fff;
+                background-color: #eb602d;
+            }
+        }
+    }
+    .mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 998;
+        display: none;
+    }
+    .dialog {
+        position: fixed;
+        width: 2.66rem;
+        top: 50%;
+        left: 50%;
+        margin-left: -1.33rem;
+        background-color: #fff;
+        border-radius: 0.1rem;
+        z-index: 999;
+        border: 0.03rem solid #ffdc4f;
+        display: none;
+        .dialog-content {
+            padding-top: 0.21rem;
+            padding-bottom: 0.11rem;
+            position: relative;
+            .close {
+                font-size: 0.12rem;
+                position: absolute;
+                right: 0.12rem;
+                top: 0.1rem;
+            }
+            .liu-xing {
+                position: absolute;
+                width: 149%;
+                left: -0.8rem;
+                top: -0.13rem;
+                display: none;
+                z-index: -1;
+            }
+            .gift {
+                display: none;
+                h4, .gift-des {
+                    text-align: center;
+                }
+                h4 {
+                    font-size: 0.16rem;
+                    color: #e53c24;
+                }
+                .gift-des {
+                    width: 1.88rem;
+                    margin: 0.07rem auto;
+                    font-size: 0.12rem;
+                }
+                .gift-top {
+                    width: 1.76rem;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -0.88rem;
+                    top: -0.54rem;
+                    display: none;
+                }
+                
+                .gift-img {
+                    width: 2rem;
+                    display: block;
+                    margin: auto;
+                    position: relative;
+                    top: -0.1rem;
+                }
+                .gift-time {
+                    font-size: 0.12rem;
+                    color: #cc8556;
+                    text-align: center;
+                    display: none;
+                }
+                .make {
+                    width: 1rem;
+                    height: 0.27rem;
+                    line-height: 0.27rem;
+                    margin: auto;
+                    margin-top: 0.07rem;
+                    font-size: 0.12rem;
+                    color: #ffffff;
+                    text-align: center;
+                    background-color: #eb6941;
+                    border-radius: 0.135rem;
+                    display: none;
+                }
+            }
+            .modify-form {
+                width: 2rem;
+                margin: auto;
+                display: none;
+                label {
+                    text-align: right;
+                }
+                .f {
+                    font-size: 0;
+                    input, textarea {
+                        width: 1.2rem;
+                        height: 0.18rem;
+                        font-size: 0.12rem;
+                        vertical-align: middle;
+                        border: solid 0.01rem #b5b5b5;
+                        padding-left: 0.1rem;
+                    }
+                    label {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 0.6rem;
+                        font-size: 0.12rem;
+                        margin-right: 0.07rem;
+                    }
+                }
+                .f-middle {
+                    margin: 0.08rem 0 ;
+                }
+                .err {
+                    height: 0.12rem;
+                    font-size: 0.12rem;
+                    line-height: 0.12rem;
+                    padding-left: 0.67rem;
+                    color: #db0000;
+                    margin-top: 0.06rem;
+                }
+            }
+            .sure {
+                width: 0.9rem;
+                height: 0.28rem;
+                line-height: 0.28rem;
+                display: block;
+                margin: auto;
+                margin-top: 0.1rem;
+                text-align: center;
+                background-color: #eb6941;
+                color: #fff;
+                border-radius: 0.14rem;
+                font-size: 0.12rem;
+            }
+            .show-status {
+                display: none;
+                img {
+                    display: block;
+                    width: 0.665rem;
+                    height: 0.72rem;
+                    margin: auto;
+                }
+                h4 {
+                    font-size: 0.16rem;
+                    color: #eb6941;
+                    text-align: center;
+                    margin: 0.05rem 0.11rem;
+                }
+                p {
+                    font-size: 0.12rem;
+                    text-align: center;
+                }
+                .status-1, .status-3, .status-4 {
+                    display: none;
+                }
+                .status-2 {
+                    display: none;
+                    p {
+                        margin-top: 0.1rem;
+                        span {
+                            color: #eb6941;
+                        }
+                    }
+                }
+            }
+            .show-msg, .res-msg {
+                width: 2.12rem;
+                margin: auto;
+                display: none;
+                h4 {
+                    font-size: 0.16rem;
+                    text-align: center;
+                }
+                p {
+                    width: 2rem;
+                    margin: auto;
+                    margin-top: 0.11rem;
+                    padding-bottom: 0.16rem;
+                    border-bottom: 0.01rem solid #f3f3f3;
+                    font-size: 0.11rem;
+                }
+            }
+            .res-msg {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .get-gift {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -0.5rem;
+        margin-top: -0.68rem;
+        z-index: 999;
+        img {
+            width: 1rem;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import "./core/reset";
+@import "./core/header";
+.container{
+    width: 3.75rem;
+    margin: 0 auto;
+    padding:0.44rem 0 0.54rem 0;
+    button:active{
+        transform: scale(0.96);
+    }
+    button{
+        cursor: pointer;
+    }
+    a{
+         cursor: pointer;
+    }
+    a:active{
+       transform: scale(0.96);
+    }
+}
+@import "./core/banner";
+@import "./core/try";
+@import "./core/question";
+@import "./core/gift";
+@import "./core/school";
+@import "./core/subject";
+@import "./core/ask";
+@import "./core/center";
+@import "./core/record";
+@import "./core/footer";
+@import "./core/alert";

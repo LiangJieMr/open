@@ -1,0 +1,122 @@
+.chest{
+	width: 1050px;
+	height: auto;
+	position: relative;
+	margin: 45px auto 0;
+	.chest_inner{
+		// overflow: hidden;
+		position: relative;
+		z-index : 2;
+		height: 293px;
+		.shest_one{
+			// overflow: hidden;
+			position: relative;
+			// width: 411px;
+			// height: 361px;
+			float: left;
+			// background: #FF2F2F;
+			// left: 0; top: 0; right: 0;  bottom: 0;
+			 -webkit-transform-style: preserve-3d;
+			 transform-style: preserve-3d;
+			 transform-origin: center;
+			 transform: rotateX(0deg);
+			 -webkit-backface-visibility: hidden;
+			 backface-visibility: hidden;
+			img{
+				cursor: pointer;
+				width: 312px;
+				height: 293px;
+			}
+		}
+	}
+	.chest_p{
+		display: none;
+		letter-spacing: 1px;
+		text-align: center;
+		clear:both;
+		font-size: 30px;
+		color: #fff;
+		span{
+			font-size: 53px;
+			color: #ffc600;
+		}
+	}
+	.chest_xianTiao{
+		width: 874px;
+		height: 13px;
+		margin: 18px auto 0;
+		border-radius: 30px;
+		background:-webkit-linear-gradient(to top, #bb4afb, #7663f8); 
+		background:linear-gradient(to top, #bb4afb, #7663f8);
+		background: -o-linear-gradient(to top, #bb4afb, #7663f8); 
+		background: -moz-linear-gradient(to top, #bb4afb, #7663f8);
+	}
+	.ani{
+		animation:move 0.25s 0s infinite;
+		-webkit-animation:move 0.25s 0s infinite;
+		animation-iteration-count:3;
+		-webkit-animation-iteration-count:3;
+	}
+}
+/* 动画 */
+@keyframes flyIntoRoom {
+    from {
+        transform: scale(1) translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(2) translateX(100px);
+        opacity: 0;
+    }
+}
+@keyframes move
+{
+    0%{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+	20%{
+		-webkit-transform:rotate(6deg);
+		transform:rotate(6deg);
+	}
+	40%{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+	60%{
+		-webkit-transform:rotate(-6deg);
+		transform:rotate(-6deg);
+	}
+    80% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+}
+
+@-webkit-keyframes move
+{
+    0%{
+    	-webkit-transform:rotate(0deg);
+    	transform:rotate(0deg);
+    }
+    25%{
+    	-webkit-transform:rotate(6deg);
+    	transform:rotate(6deg);
+    }
+    50%{
+    	-webkit-transform:rotate(0deg);
+    	transform:rotate(0deg);
+    }
+    75%{
+    	-webkit-transform:rotate(-6deg);
+    	transform:rotate(-6deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+}

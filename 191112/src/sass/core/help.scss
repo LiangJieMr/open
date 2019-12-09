@@ -1,0 +1,138 @@
+.kong{
+	width: 1060px;
+	height: 30px;
+	margin: 0 auto;
+}
+.help{
+  width: 1060px;
+  height: 583px;
+  margin: 30px auto 110px;
+  background-image: url("../assetsfc191111/img/zhuLi_bg.png");
+  background-repeat: no-repeat;
+  position: relative;
+  .help_tit{
+    width: 548px;
+    height: 115px;
+    background-image: url("../assetsfc191111/img/zhuLi_tit.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -55px;
+    left: 242px;
+    p{
+      font-weight: bold;
+      -webkit-text-stroke: 2.0px #2F5FC6;
+      text-shadow:0px 3px 5px #04156e;
+      position: relative;
+      left: 25px;
+      top: 28px;
+      i{
+        display: inline-block;
+        width: 12px;
+      }
+    }
+  }
+  .help_ul{
+    width: 962px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 76px;
+    li{
+      float: left;
+      width: 172px;
+      height: 220px;
+      margin-right: 25px;
+      p{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #f1f1f1;
+        letter-spacing: 1px;
+      }
+      .help_zhu{
+        font-size: 20px;
+        color: #2deeff;
+      }
+      .help_img{
+        width: 136px;
+        height: 139px;
+        margin: 15px auto 8px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    li:nth-child(2),li:nth-child(4){
+      background-image: url("../assetsfc191111/img/zhuLi.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    li:last-child{
+      margin-right: 0px;
+    }
+  }
+  .help_btn{
+    text-align: center;
+    cursor: pointer;
+    width: 390px;
+    height: 76px;
+    line-height: 62px;
+    margin: 14px auto 0;
+    background-image: url("../assetsfc191111/img/zhuLi_btn.png");
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    span{
+      color: #fff5a1;
+      padding-right: 14px;
+    }
+  }
+  .help_btn:hover{
+	  line-height: 64px;
+  }
+  .help_instr{
+    position: absolute;
+    bottom: 8px;
+    left: 6px;
+    width: 1048px;
+    height: 146px;
+    margin: 0 auto;
+    background: #0a0355;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    .help_dl{
+      padding-top: 26px;
+      dt{
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        width: 83px;
+        height: 85px;
+        font-size: 22px;
+        color: #fff;
+        background: #ee8844;
+        border-radius: 50%;
+        margin: 0 33px 0 43px;
+        p{
+          padding-top: 13px;
+          line-height: 28px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+      }
+      dd{
+        font-size: 13px;
+        color: #e3e4ea;
+        float: left;
+        p{
+          line-height: 16px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import './core/basis.scss';
+@import './core/header.scss';
+@import './core/banner.scss';
+@import './core/help.scss';
+@import './core/activityOne.scss';
+@import './core/activityTwo.scss';
+@import './core/rules.scss';
+@import './core/school.scss';
+@import './core/study.scss';
+@import './core/suspend.scss';
+@import './core/invite.scss';
+@import './core/abnormal.scss';
+@import './core/for.scss';
+@import './core/lucky.scss';
+@import './core/posters.scss';
+@import './core/no.scss';
+@import './core/tip.scss';
+@import './core/login.scss';
+@import './core/errorTip.scss';
+@import './core/comForm.scss';
+@import './core/footer.scss';
+@import './core/media.scss';
+body{
+    background: #020686;
+	position: relative;
+    .YRBF{
+        width: 100%;
+        overflow: hidden;
+		display: block;
+    }
+}
+// .xiaoShi{
+// 	display: none;
+// }
+.mask{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9998;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: Alpha(opacity=50);
+}
+.jiang {
+  display: block;
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  z-index: 10;
+  cursor: not-allowed;
+}
+.Over{
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  z-index: 13;
+  color: #fff;
+  font-size: 39px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 193px;
+  background: rgba(0, 0, 0, .4);
+  cursor: not-allowed;
+}
+.over_p{
+  position: relative;
+  bottom: -222px;
+}
+.con_btn{
+  position: absolute;
+  top: 93px; 
+  z-index: 13;
+}
+.zxj{
+  position: relative;
+  top: 0px;
+}
+#can{
+  cursor: Default;
+}
+.jDKtMA{
+	// display: none;
+}
+/* 公共半透明遮罩--结束 */
+/* 弹窗公共动画--开始*/
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: bounceIn;
+}
+
+
+@media screen and (min-width: 1920px){
+	.posters{
+	  width: 371px;
+	  height: 730px;
+	  margin-left: -185px;
+	  margin-top: -365px;
+	  .posters_img{
+		  width: 100%;
+		  height: 660px;
+	  }
+	}
+}
+@media screen and (max-width: 1920px) and (min-width: 1400px) {
+   .posters{
+	 width: 371px;
+     height: 730px;
+     margin-left: -185px;
+     margin-top: -365px;
+	 .posters_img{
+	 	width: 100%;
+	 	height: 660px;
+	 }
+   }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+	body{
+		.posters{
+		  width: 285px;
+		  height: 561px;
+		  margin-left: -142px;
+		  margin-top: -280px;
+		  .posters_img{
+		  		width: 100%;
+		  		height: 507px;
+		  }
+		}
+	}
+	 
+}
+
+@media screen and (max-width: 1199px) {
+   body{
+   	.posters{
+   	  width: 267px;
+   	  height: 525px;
+   	  margin-left: -133px;
+   	  margin-top: -262px;
+   	  .posters_img{
+   	  		width: 100%;
+   	  		height: 475px;
+   	  }
+   	}
+   }
+}
+

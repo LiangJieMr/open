@@ -1,0 +1,41 @@
+.footer-common {
+    background-color: #3b3b3b;
+    .copyright {
+        background: #000;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        padding: 45px 0;
+        a {
+            color: #fff;
+            vertical-align:middle;
+        }
+        em{
+            vertical-align:middle;
+            margin: 0 5px;
+        }
+        a:hover {
+            color: #f27022;
+        }
+        p {
+            line-height: 240%;
+        }
+        img {
+            vertical-align: middle;
+        }
+        .emblem {
+            margin-right: 5px;
+        }
+        span {
+            vertical-align: middle;
+        }
+        .certificate {
+            a {
+                margin: 0 8px;
+                font-size: 0;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+}

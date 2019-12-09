@@ -1,0 +1,102 @@
+.com-fix-btn {
+    width: 3.75rem;
+    height: 0.58rem;
+    background: #444444;
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    color: #FFFFFF;
+    z-index: 100;
+    top: auto;
+    div {
+        height: 100%;
+        line-height: 0.58rem;
+        float: left;
+    }
+    .left {
+        margin-left: 0.3rem;
+        font-size: 0.14rem;
+        height: 100%;
+        vertical-align: middle;
+        span {
+            float: left;
+            font-size: 0.28rem;
+            height: 100%;
+            line-height: 0.58rem;
+            display: inline-block;
+            margin-right: 0.1rem;
+        }
+    }
+    .right {
+        float: right;
+        margin-right: 0.26rem;
+        -webkit-animation: shake 2.5s infinite;
+        animation: shake 2.5s infinite;
+        span {
+            background-color: #f85959;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 0.06rem 0.1rem;
+            border-radius: 0.1rem;
+            border-width: 0.01rem;
+            border-color: rgba(0, 0, 0, 0);
+            border-style: none;
+            font-size: 0.18rem;
+            position: relative;
+            i {
+                display: block;
+                width: 0.22rem;
+                height: 0.22rem;
+                line-height: 0.22rem;
+                text-align: center;
+                border-radius: 50%;
+                background: #FF3434;
+                position: absolute;
+                right: -0.05rem;
+                top: -0.1rem;
+                font-style: normal;
+                z-index: 999;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes shake {
+    0%,
+    35% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    5%,
+    15%,
+    25% {
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg)
+    }
+    10%,
+    20%,
+    30% {
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg)
+    }
+}
+
+@keyframes shake {
+    0%,
+    35% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    5%,
+    15%,
+    25% {
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg)
+    }
+    10%,
+    20%,
+    30% {
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg)
+    }
+}

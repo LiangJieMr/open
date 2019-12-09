@@ -1,0 +1,66 @@
+.list{
+	width: 890px;
+	height: 320px;
+	margin: 50px auto 0;
+	padding: 0 80px;
+	background: url(../assetsfc191111/img/porson.png) no-repeat;
+	.list_tit{
+		padding-top: 43px;
+		width: 225px;
+		margin: 0 auto 16px;
+		text-align: center;
+		font-size: 37px;
+		color: #3e1387;
+	}
+	.list_proson{
+		position: relative;
+		overflow: hidden;
+		height: 165px;
+		.list_none{
+			text-align: center;
+			font-size: 48px;
+			height: 100px;
+			font-weight: bold;
+			line-height: 100px;
+			color: #ffaf03;
+		}
+		div.list_div{
+			// position: absolute;
+			// top: 0px;
+			overflow: hidden;
+			position: relative;
+			li{
+				width: 365px;
+				line-height: 32px;
+				span{
+					font-size: 18px;
+					display: inline-block;
+				}
+				span.list_phone{
+					margin-right: 52px;
+					letter-spacing: 1px;
+					color: #000;
+				}
+				span.list_text{
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+	.big{
+		.scrBtm{
+		    height: 300px;
+		    overflow: hidden;
+		    margin-top: 30px;
+		    padding:0 0 0 6px;
+			.lud{	
+				width: 400px;
+			    font-size: 20px;
+				line-height: 22px;
+			    text-align: left;
+			    height: 22px;
+			    white-space: nowrap;
+			}
+		}
+	}
+}

@@ -1,0 +1,232 @@
+.activeOne {
+  width: 1051px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto 30px;
+  .activeOne_tit {
+    width: 656px;
+    height: 115px;
+    background-image: url("../assets191111/img/activeOne_tit.png");
+    background-repeat: no-repeat;
+    margin: 0 auto 20px;
+    p {
+      text-align: center;
+      font-weight: bold;
+      -webkit-text-stroke: 2px #2f5fc6;
+      text-shadow: 0px 3px 5px #04156e;
+      position: relative;
+      left: 25px;
+      top: 18px;
+      font-size: 40px;
+      color: #fff;
+    }
+  }
+  .activeOne_inn {
+    width: 1051px;
+    overflow: hidden;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+    .activeOne_inn_tit {
+      width: 100%;
+      height: 91px;
+      border-bottom: 5px solid #ee8844;
+      // background-image: url("../assets191111/img/activeOnebg_l.png");
+      background-repeat: no-repeat;
+      .ling {
+        cursor: pointer;
+        width: 50%;
+        float: left;
+        height: 91px;
+        line-height: 91px;
+        text-align: center;
+        .One_time {
+          color: #fff;
+          font-size: 40px;
+          line-height: 91px;
+          font-weight: bold;
+          padding-right: 6px;
+          -webkit-text-stroke: 2px #e76b2d;
+        }
+        .state {
+          color: #f9ca5b;
+          position: relative;
+          top: -6px;
+          font-size: 22px;
+          padding: 3px 28px 4px;
+          border: 2px solid #f9ca5b;
+          border-radius: 30px;
+          background: #cb580b;
+        }
+        .over {
+          border: 2px solid #ee8844;
+          color: #c6c6c6;
+          background: #535353;
+        }
+        .doing {
+          border: 2px solid #f5ac3c;
+          color: #fff;
+          background: #ff2f2f;
+        }
+      }
+      .shiYi {
+        cursor: pointer;
+        width: 50%;
+        height: 91px;
+        float: left;
+        line-height: 91px;
+        text-align: center;
+        .One_time {
+          color: #fff;
+          font-size: 40px;
+          line-height: 91px;
+          font-weight: bold;
+          padding-right: 6px;
+          -webkit-text-stroke: 2px #e76b2d;
+        }
+        .state {
+          color: #f9ca5b;
+          position: relative;
+          top: -6px;
+          font-size: 22px;
+          padding: 3px 28px 4px;
+          border: 2px solid #f9ca5b;
+          border-radius: 30px;
+          background: #cb580b;
+        }
+        .over {
+          border: 2px solid #ee8844;
+          color: #c6c6c6;
+          background: #535353;
+        }
+        .doing {
+          border: 2px solid #f5ac3c;
+          color: #fff;
+          background: #ff2f2f;
+        }
+      }
+    }
+    .activeOne_inn_con {
+      width: 100%;
+      height: 333px;
+      background: #fff;
+      position: absolute;
+      top: 96px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      ul {
+        padding: 43px 12px 0;
+        overflow: hidden;
+        li {
+          float: left;
+          margin-left: 49px;
+          width: 219px;
+          position: relative;
+          div.con_Li {
+            width: 219px;
+            height: 175px;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 1px;
+            padding-top: 43px;
+            margin-bottom: 5px;
+            // background-image: url("../assets191111/img/jin.png");
+            position: relative;
+            .jiang {
+              display: block;
+              width: 225px;
+              height: 225px;
+              position: absolute;
+              top: -3px;
+              left: -3px;
+              z-index: 10;
+              cursor: not-allowed;
+            }
+            .over_yi {
+              display: none;
+              width: 225px;
+              height: 225px;
+              position: absolute;
+              top: -3px;
+              left: -3px;
+              cursor: not-allowed;
+            }
+            .yiJieShu {
+              display: none;
+              width: 225px;
+              height: 225px;
+              position: absolute;
+              top: -3px;
+              left: -3px;
+              cursor: not-allowed;
+            }
+            b {
+              font-size: 60px;
+              width: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-65%);
+              z-index: 11;
+              span {
+                font-weight: normal;
+                font-size: 29px;
+              }
+            }
+            .con_btn {
+              width: 100px;
+              height: 32px;
+              margin: 0 auto;
+              background: #af61f7;
+              border-radius: 20px;
+              position: relative;
+              p {
+                font-size: 19px;
+                color: #fff;
+                width: 100%;
+                height: 30px;
+                line-height: 28px;
+                margin: 0 auto;
+                border-radius: 20px;
+                position: absolute;
+                top: 2px;
+                border-top: 2px solid #51448f;
+                cursor: url("../assets191111/img/hand.png") 0 10, auto;
+              }
+              p:active {
+                top: 4px;
+              }
+              .acOne_p {
+                background: #d41dbc;
+              }
+              .liqu{
+                background: #8c75f7;
+              }
+              .deDao{
+                background: #d41dbc;
+              }
+            }
+          }
+          span.con_p {
+            display: block;
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+          }
+          
+        }
+        li:first-child {
+          margin-left: 0px;
+          div.con_Li {
+            width: 219px;
+            height: 175px;
+            // background-image: url("../assets191111/img/mianDan.png");
+          }
+        }
+      }
+    }
+    .acOneInn {
+      display: none;
+    }
+  }
+}

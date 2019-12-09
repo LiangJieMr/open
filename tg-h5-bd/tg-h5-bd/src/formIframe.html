@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="http://crm.yunduoketang.com/resources/css/outer/yxcrm.css" rel="stylesheet" />
+		<script type="text/javascript" src="./js/lib/MobileAdapt/adaptive-version3.js"></script>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			html,body{
+				position: relative;
+				height: 100%;
+			}
+			.yxCrmPanel{
+				position: absolute;
+				top:50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			.yxItem{
+				margin-bottom: 0.2rem;
+			}
+			.yxItemLabel{
+				height: 0.25rem;
+				line-height: 0.25rem;
+				width: 28% !important;
+				font-size: 0.14rem;
+				white-space: nowrap;
+			}
+			.yxItemContent{
+				width: 72% !important;
+				
+			}
+			.yxItemContent input{
+				font-size: 0.14rem;
+				height: 0.25rem;
+			}
+			.submit{
+				padding: 0.08rem 0.15rem !important;
+				 font-size: 0.16rem !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="yxCrmPanel" id="yxmg_5c8f7bf23947445a5dbfd8c8" basePath="http://crm.yunduoketang.com" cid="5c6282da394744514991d575" init-data='{"mgid":"5c8f7bf23947445a5dbfd8c8","channel":"百度推广（open）","equip":"移动设备","saleItem":{"text":"远程学历","value":"远程学历"}}'>
+			<div class='yxItem' code='fc_1639' required='1'>
+				<div class='yxItemLabel'>意向专业<span class="red">(*)</span></div>
+				<div class='yxItemContent'></div>
+			</div>
+			<div class='yxItem' code='contactPhone' required='1'>
+				<div class='yxItemLabel'>手机号码<span class="red">(*)</span></div>
+				<div class='yxItemContent'></div>
+			</div>
+			<div class='yxItem' code='customerName' required='1'>
+				<div class='yxItemLabel'>客户姓名<span class="red">(*)</span></div>
+				<div class='yxItemContent'></div>
+			</div>
+			<p class="text-center m-b-0">
+				<a href="javascript:;" class="btn btn-primary submit">留言</a>
+			</p>
+		</div>
+		<script src="http://crm.yunduoketang.com/resources/plugins/jquery/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="http://www.yunduoyingxiao.com/JavaScript/outer.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$.getScript("http://crm.yunduoketang.com/resources/js/outer/yxutils.js", function() {
+					YxUtils.init("#yxmg_5c8f7bf23947445a5dbfd8c8");
+				});
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,33 @@
+.footer-up {
+    background: #ececec;
+    background-image: url(../assets19zhounianqing/img/footerUp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 41px;
+    padding-bottom: 61px;
+    .footer-up-content {
+        width: 1050px;
+        margin: auto;
+       
+        color: #ffffff;
+        h4 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 37px;
+            margin-top: 25px;
+        }
+        dl {
+            dt,dd {
+                font-size: 20px;
+                em {
+                    color: #f6ce46;
+                }
+            }
+        }
+    }
+}

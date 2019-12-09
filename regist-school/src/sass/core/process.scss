@@ -1,0 +1,149 @@
+.process{
+	width: 100%;
+	height: 581px;
+	background: #fff;
+	background-position-x: center;
+	.process_inner{
+		width: 1050px;
+		margin: 0 auto;
+		text-align: center;
+		.process_tit{
+			width: 910px;
+			height: 132px;
+			margin: 50px auto 0 auto;
+			padding-top: 10px;
+			color: #b41b2f;
+			background: url(../assets/img/tit_bg.png) no-repeat;
+			background-position: 8px -8px;
+			h1{
+				font-size:40px;
+				letter-spacing: 4px;
+			}
+			.steps {
+			  position: relative;
+			  margin-bottom: 20px;
+			  /*步骤描述*/
+				li.maj{
+					list-style-type: none;
+					font-size: 12px;
+					text-align: center;
+					width: 33.3%;
+					position: relative;
+					float: left;
+				}
+				li.maj:nth-child(1){
+					text-align: left;
+				}
+				/*步骤数字*/
+				li.maj:before {
+				  display: block;
+				  content: counter(none); /*设定计数器内容*/
+				  width: 16px;
+				  height: 16px;
+				  background-color: #b41b2f;
+				  line-height: 16px;
+				  border-radius: 16px;
+				  font-size: 16px;
+				  color: #b41b2f;
+				  text-align: center;
+				  font-weight: 700;
+				  margin: 0 auto 8px auto;
+				}
+				/*连接线*/
+				li.maj ~ li.maj:after {
+				  content: '';
+				  width: 100%;
+				  height: 1px;
+				  background-color: #b41b2f;
+				  position: absolute;
+				  left: -50%;
+				  top: 7px;
+				  z-index: 1; /*放置在数字后面*/
+				}
+				li.steps_two:before{
+					width: 0px;
+					height: 0px;
+					color: #fff;
+				}
+			}
+		}
+		.process_con{
+			width: 100%;
+			height: 433px;
+			padding-top: 20px;
+			background: url(../assets/img/bkqlcbg.png) no-repeat;
+			.s_con_top{
+				li{
+					width: 170px;
+					height: 175px;
+					float: left;
+					.num{
+						font-size: 30px;
+					}
+					h2{
+						font-size: 22px;
+						letter-spacing: 1px;
+						margin: 10px 0 12px 0;
+					}
+					.inn{
+						font-size: 17px;
+					}
+					span{
+						display: block;
+						width: 158px;
+						height: 36px;
+						background: #b02639;
+						font-size: 17px;
+						color: #fff;
+						margin: 6px auto;
+						line-height: 36px;
+						cursor: pointer;
+					}
+				}
+				li:nth-child(2){
+					margin: 0 263px 0 277px;
+				}
+			}
+			.s_con_top2{
+				clear: both;
+				.top2_li{
+					width: 50%;
+					float: left;
+					div{
+						width: 170px;
+						height: 175px;
+						margin: 0 auto;
+						.num{
+							font-size: 30px;
+						}
+						h2{
+							font-size: 22px;
+							letter-spacing: 1px;
+							margin: 10px 0 12px 0;
+						}
+						.inn{
+							font-size: 17px;
+						}
+						span{
+							display: block;
+							width: 158px;
+							height: 36px;
+							background: #b02639;
+							font-size: 17px;
+							color: #fff;
+							margin: 6px auto;
+							line-height: 36px;
+							cursor: pointer;
+						}
+					}
+				}
+				.top2_li:nth-child(1) div{
+					margin-left: 226px;
+				}
+				.top2_li:nth-child(2) div{
+					margin-left: 147px;
+				}
+			}
+		}
+	}
+}

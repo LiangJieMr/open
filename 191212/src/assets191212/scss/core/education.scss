@@ -1,0 +1,39 @@
+.education-box{
+    padding: 78px 0;
+    text-align: center;
+    .title{
+        white-space: nowrap;
+        font-size: 34px;
+        color: #152872;
+        font-weight: bold;
+         h6,span{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        h6{
+            margin: 0 50px;
+        }
+    }
+   .container{
+       margin-top: 52px;
+       font-size: 0;
+       white-space: nowrap;
+       dl{
+           margin: 0 45px;
+           display: inline-block;
+           img{
+               height: 152px;
+               width: 152px;
+           }
+       }
+       dd{
+           font-size: 16px;
+           color: #808080;
+       }
+       .sub-title{
+           padding: 20px 0 17px;
+           font-size: 20px;
+           color: #242424;
+       }
+   }
+}

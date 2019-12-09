@@ -1,0 +1,251 @@
+.header{
+   position: relative;
+   z-index: 1;
+   height: 70px;
+   line-height: 70px;
+   border-bottom: 6px solid #ef9f39; 
+   background-color: #fff;
+   dl{
+       font-size: 0;
+       dt,dd{
+           font-size: 14px;
+           display: inline-block;
+       }
+       .phone-num{
+           i{
+             color: #fe9b00;  
+           }
+       }
+       a.hover{
+           padding-bottom: 8px;
+           border-bottom: 4px solid #fff;
+           cursor: pointer;
+           color: #000;
+       }
+       a.hover:hover{
+//         border-bottom-color: #ef9f39;
+           color:#ef9f39;
+       }
+       a.hover:active{
+            color: #ef9f39;
+       }
+       a.hover.active{
+           color:#ef9f39;
+//          border-bottom-color: #ef9f39;
+       }
+       .mrt{
+           margin-right: 34px;
+       }
+       .phone-num{
+             margin-left: 56px; 
+       }
+       .share-name{
+           margin-right: 21px;
+           span{
+               vertical-align: middle;
+           }
+       }
+       .share-item{
+           margin-right: 11px;
+            span:hover{
+               color: #c97715;
+           }
+       }
+       .weixin-item{
+           position: relative;
+       }
+       .share-phone{
+           margin-left:60px;
+           font-size: 18px;
+           color: #ef9f39;
+       }
+       .number{
+           font-size: 25px;
+           color: #ef9f39;
+           margin-right: 11px;
+       }
+       .number,strong,span{
+           vertical-align: middle;
+       }
+       .weibo,.weixin,.qq{
+           font-size: 25px;
+           cursor: pointer;
+       }
+       .weibo{
+           color: #e85f64;
+       }
+       .weixin-box{
+           height: 25px;
+           position: relative;
+           line-height: normal;
+       }
+       span.weixin{
+            font-size: 25px;
+            color: #91d05d;
+        }
+       .qq{
+           color: #efc34c;
+       }
+   }
+   .weixin-masker{
+       display: none;
+       position: absolute;
+       z-index: 10000;
+       left: -42px;
+       top: 50px;
+       line-height: normal;
+       width: 150px;
+       height: 200px;
+       background-color: #ffffff;
+       box-shadow: 0px 5px 5px 0px 
+            rgba(178, 64, 114, 0.95);
+       border-radius: 5px;
+       border: solid 2px #ef9f39;
+       text-align: center;
+       .title{
+           color: #000;
+       }
+       .tranparent{
+           position: absolute;
+           left: 0;
+           top: -28px;
+           height:27px;
+           width: 100%;
+       }
+       .arrow-out{
+           position: absolute;
+           left: 40px;
+           top: -15px;
+           width: 0px;
+           height: 0px;
+           border-width:0 15px 15px;
+           border-style:solid;
+           border-color:transparent transparent #ef9f39;
+       }
+       .arrow-inner{
+            position: absolute;
+            left: 41px;
+            top: -12px;
+            width: 0px;
+            height: 0px;
+            border-width:0 14px 15px;
+            border-style:solid;
+            border-color:transparent transparent #fff;
+       }
+       .title{
+           padding: 20px 0 12px 0;
+           font-size: 14px;
+       }
+       .share-code{
+           width: 100px;
+           height: 100px;
+       }
+       .prompt{
+           font-size: 12px;
+           margin-top: 12px;
+           color: #666666;
+       }
+   }
+   .enter{ 
+       float: left;
+       margin-left: 79px;
+   }
+   .share{
+       float: right;
+       margin-right: 49px;
+   }
+   .status-login{
+       position: relative;
+   }
+    .login-status{
+        font-size: 12px;
+        cursor: pointer;
+        margin-left: 45px;
+        display: none;
+        i{
+            color: #fe9b00;
+        }
+        p{
+            position: absolute;
+            top: 64px;
+            width:97px;
+            padding: 20px 0 0 0;
+            font-size: 12px;
+            border-radius:4px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #cbcbcb;
+            box-shadow: 0px 1px 7px 0px #cbcbcb;
+            display: none;
+            line-height: normal;
+        }
+        span.tra-out{
+             position: absolute;
+             top: -9px;
+             left:18px;
+             width: 0;
+             height:0;
+             border-left:6px solid transparent;
+             border-right: 6px solid transparent;
+             border-bottom: 8px solid #cbcbcb; 
+        }
+        span.tra-inner{
+             position: absolute;
+             top: -8px;
+             left: 18px;
+             width: 0;
+             height:0;
+             border-left:6px solid transparent;
+             border-right: 6px solid transparent;
+             border-bottom: 9px solid #fff; 
+        }
+        span.fill-cir{
+            position: absolute;
+            left: 0;
+            top: -19px;
+            z-index: 1000;
+            height: 18px;
+            width: 100%;
+           background-color: transparent;
+        }
+        a{
+            display: block;
+            margin-bottom: 22px;
+            color: #000;
+        }
+        a.active{
+            color: #fe9b00;
+        }
+        a:hover{
+           color: #fe9b00;
+        }
+    }
+    .login-status:hover p{
+        display: block;
+        span{
+            display: block;
+            margin-bottom: 22px;
+            color: #000;
+            cursor: pointer;
+        }
+    }
+    .login-opt{
+        font-size: 14px;
+        cursor: pointer;
+        display: none;
+        line-height:normal;
+    }
+    .reg{
+       width: 122px;
+       height: 34px;
+       margin-left: 56px;
+       background-color: #ef9f39;
+       border-radius: 5px;
+       border: none;
+       vertical-align: middle;
+       color: #fff;
+   }
+   .reg:hover{
+       background-color:#c97715;
+   }
+}
