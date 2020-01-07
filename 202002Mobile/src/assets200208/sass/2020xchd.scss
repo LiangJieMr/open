@@ -1,0 +1,27 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-06 11:39:17
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-06 16:22:53
+ * @Description: 样式入口文件
+ */
+
+@import './core/reset.scss';
+@import './core/header.scss';
+@import './core/login.scss';
+@import './core/footer.scss';
+@import './core/errorTip.scss';
+body{
+	width: 7.5rem;
+	margin: 0 auto;
+}
+.mask{
+	display: none;
+	position: fixed;
+	left: 0;
+    top: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
