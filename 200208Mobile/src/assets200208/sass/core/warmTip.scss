@@ -1,0 +1,84 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-08 16:23:13
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-10 16:29:49
+ * @Description: 提示弹框
+ */
+ .warmTip{
+     display: none;
+     width: 5.2rem;
+     height: 5rem;
+     position: fixed;
+     top: 30%;
+     left: 50%;
+     margin-left: -2.6rem;
+     z-index: 99999;
+     .warmTip-red{
+         width: 100%;
+         height: 3.6rem;
+         background: #e1342e;
+         border-radius: 0.15rem;
+         position: relative;
+         .warmTip-yellow{
+             width: 4.99rem;
+             height: 3.41rem;
+             border: 0.04rem solid #13a479;
+             background: #fff8cf;
+             border-radius: 0.15rem;
+             position: absolute;
+             top: 0;
+             left: 0;
+             bottom: 0;
+             right: 0;
+             margin: auto;
+             .warmTip-err{
+                 width: 100%;
+                 height: auto;
+                 margin-top: 0.5rem;
+                 overflow: hidden;
+                 p{
+                     text-align: center;
+                     color: #740202;
+                     font-size: 0.3rem;
+                     letter-spacing: 0.02rem;
+                     line-height: 0.48rem;
+                 }
+             }
+             .warm1{
+                p{
+                    font-size: 0.26rem;
+                    letter-spacing: 0.01rem;
+                    line-height: 0.36rem;
+                }
+             }
+             .warmTip-img{
+                 width: 1.83rem;
+                 height: 1.16rem;
+                 margin: 0.26rem auto 0;
+                 img{
+                     width: 100%;
+                 }
+             }
+         }
+     }
+     .warmTip-btn{
+         width: 100%;
+         height: 0.82rem;
+         border-radius: 0.5rem;
+         margin: 0.45rem auto;
+         text-align: center;
+         background: #e1342e;
+         color: #fcf4c9;
+         font-size: 0.32rem;
+         line-height: 0.82rem;
+         letter-spacing: 0.1rem;
+     }
+     .dengl{
+         width: 0.9rem;
+         height: 1.32rem;
+         position: absolute;
+         top: 0;
+         right: 0;
+     }
+ }

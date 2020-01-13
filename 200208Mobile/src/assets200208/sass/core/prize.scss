@@ -1,0 +1,72 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-09 18:36:30
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-13 14:41:55
+ * @Description: 中奖弹框
+ */
+.prize-tan{
+    display: none;
+    width: 6rem;
+    height: 8rem;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-left: -3rem;
+    z-index: 99999;
+    .prize-tan-inner{
+        width: 100%;
+        height: 7rem;
+        background: url(../../assets200208/img/q2.png) no-repeat;
+        background-size: contain;
+        background-position-x: 0.25rem;
+        position: relative;
+        .mey{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 1.52rem;
+            height: 0.7rem;
+            line-height: 0.7rem;
+            font-size: 0.68rem;
+            color: #efca31;
+            font-weight: bold;
+            letter-spacing: 0.01rem;
+            text-align: center;
+            position: absolute;
+            bottom: 1.35rem;
+            left: 50%;
+            margin-left: -0.89rem;
+        }
+        p{
+            font-size: 0.24rem;
+            color: #fff;
+            position: absolute;
+            left: 25%;
+            bottom: 0.2rem;
+        }
+    }
+    .prize-tan-btn{
+        width: 85%;
+        height: 0.82rem;
+        line-height: 0.82rem;
+        border-radius: 0.15rem;
+        color: #fff;
+        background: #fd8300;
+        margin: 0.15rem auto 0;
+        text-align: center;
+        span{
+            display: inline-block;
+            font-size: 0.3rem;
+            line-height: 0.82rem;
+            font-weight: 500;
+            letter-spacing: 0.02rem;
+            vertical-align: middle;
+        }
+        i{
+            display: inline-block;
+            font-size: 0.24rem;
+            padding-left: 0.02rem;
+            line-height: 0.82rem;
+            vertical-align: middle;
+        }
+    }
+}

@@ -1,0 +1,191 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-08 09:29:55
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-10 14:11:13
+ * @Description: 活动规则
+ */
+
+.rulesprize{
+    width: 100%;
+    height: auto;
+    position: relative;
+    .rules-tit{
+        width: 4.96rem;
+        height: 1.03rem;
+        margin: 0.45rem auto 0.3rem;
+        background: url(../../assets200208/img/rulestit.png) no-repeat;
+        background-size: 100%;
+    }
+    .rulesprize-inner{
+        width: 6.2rem;
+        height: auto;
+        padding: 0 0.34rem 10.9rem;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 0.3rem;
+        background: #fbf2cd;
+        h1{
+            color: #a90404;
+            margin: 0.56rem 0 0.05rem;
+            font-size: 0.34rem;
+            letter-spacing: 0.01rem;
+        }
+        p{
+            color: #a90404;
+            line-height: 0.4rem;
+            font-size: 0.24rem;
+            letter-spacing: 0.01rem;
+        }
+        .prize{
+            width: 101%;
+            height: auto;
+            margin: 0.3rem auto 0;
+            .prize-top{
+                width: 3.06rem;
+                height: 2.65rem;
+                margin: 0 auto;
+                background: url(../../assets200208/img/money2.png) no-repeat;
+                background-size: 100%;
+                position: relative;
+                div{
+                    width: 1.24rem;
+                    height: 0.56rem;
+                    position: absolute;
+                    left: 0.54rem;
+                    top: 0.68rem;
+                    font-family: 'Impac';
+                    font-size: 0.72rem;
+                    font-weight: bold;
+                    color: #de151f;
+
+                }
+                p{
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0px;
+                    font-size: 0.24rem;
+                    transform: translate(-50%, 0%);
+                }
+            }
+            .prize-bot{
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                .prize-left{
+                    float: left;
+                    width: 3.06rem;
+                    height: 2.65rem;
+                    background: url(../../assets200208/img/money2.png) no-repeat;
+                    background-size: 100%;
+                    position: relative;
+                    div{
+                        width: 1.24rem;
+                        height: 0.56rem;
+                        position: absolute;
+                        left: 0.54rem;
+                        top: 0.68rem;
+                        font-family: 'Impac';
+                        font-size: 0.72rem;
+                        font-weight: bold;
+                        color: #de151f;
+    
+                    }
+                    p{
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0px;
+                        font-size: 0.24rem;
+                        transform: translate(-50%, 0%);
+                    }
+                }
+                .prize-right{
+                    float: right;
+                    width: 3.06rem;
+                    height: 2.65rem;
+                    background: url(../../assets200208/img/money2.png) no-repeat;
+                    background-size: 100%;
+                    position: relative;
+                    div{
+                        width: 1.24rem;
+                        height: 0.56rem;
+                        position: absolute;
+                        left: 0.54rem;
+                        top: 0.68rem;
+                        font-family: 'Impac';
+                        font-size: 0.72rem;
+                        font-weight: bold;
+                        color: #de151f;
+    
+                    }
+                    p{
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0px;
+                        font-size: 0.24rem;
+                        transform: translate(-50%, 0%);
+                    }
+                }
+            }
+        }
+       
+    }
+    .roster{
+        width: 7.41rem;
+        height: 9.64rem;
+        margin: 0 auto;
+        background: url(../../assets200208/img/porsen.png) no-repeat;
+        background-size: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0.76rem;
+        transform: translate(-50%, 0%);
+        z-index: 20;
+        .roster-inner{
+            width: 4.42rem;
+            height: 6.5rem;
+            margin: 2.3rem auto 0;
+            #demo{
+                overflow:hidden;
+                height:100%;
+                float: left;
+                width: 100%;
+                position:relative;
+                p{
+                    font-size: 0.56rem;
+                    font-weight: 600;
+                    color: #fcad00;
+                    text-align: center;
+                    line-height: 6rem;
+                }
+             }
+             #demo1{
+                height:auto;
+                text-align:center;
+             }
+             #demo2{
+                height:auto;
+                text-align:center;
+             }
+             #demo1 li{
+                list-style-type:none;
+                text-align: center;
+                color: #fff;
+                font-size: 0.24rem;
+                line-height: 0.55rem;
+                letter-spacing: 0.01rem;
+             }
+             .list_phone{
+                 margin-right: 0.08rem;
+             }
+             #demo2 li{
+                list-style-type:none;
+                text-align: center;
+                color: #fff;
+                font-size: 0.24rem;
+                line-height: 0.55rem;
+                letter-spacing: 0.01rem;
+             }
+        }
+    }
+}

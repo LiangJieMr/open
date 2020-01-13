@@ -1,0 +1,124 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-08 10:53:20
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-13 13:56:05
+ * @Description: 推荐专业
+ */
+
+.major{
+    width: 6.34rem;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    .major-tit{
+        width: 4.96rem;
+        height: 1.03rem;
+        margin: 0.72rem auto 0.44rem;
+        background: url(../../assets200208/img/majortit.png) no-repeat;
+        background-size: 100%;
+    }
+    .major-inner{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        ul{
+            overflow: hidden;
+            li{
+                width: 2.74rem;
+                height: 3.35rem;
+                float: left;
+                border-radius: 0.1rem;
+                background: #fff;
+                padding: 0.09rem 0.12rem;
+                margin-bottom: 0.38rem;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                   div.img{
+                       width: 100%;
+                       height: 2.02rem;
+                       img{
+                           width: 100%;
+                           height: 100%;
+                       }
+                   }
+                   .major-name{
+                       color: #524f5a;
+                       font-size: 0.2rem;
+                       margin-top: 0.12rem;
+                   }
+                   .icon{
+                       color: #c3c3c3;
+                       font-size: 0.16rem;
+                       margin: 0.18rem 0 0.07rem;
+                       i{
+                        font-size: 0.12rem;
+                        margin-right: 0.05rem;
+                       }
+                       span{
+                           margin-right: 0.1rem;
+                       }
+                   }
+                   .c-name{
+                        .pink{
+                            padding: 0.03rem 0.13rem;
+                            font-size: 0.14rem;
+                            margin-right: 0.09rem;
+                            color: #c3c3c3;
+                            -webkit-border-radius: 0.1rem;
+                            -moz-border-radius: 0.1rem;
+                            border-radius: 0.1rem;
+                            border: 0.01rem solid #c3c3c3;
+                        }
+                   }
+                }
+          
+            }
+            li:nth-child(odd){
+                margin-right: 0.38rem;
+            }
+        }
+    }
+    .major-btn{
+        width: 100%;
+        margin: 0.1rem auto 0;
+        overflow: hidden;
+        p{
+            width: 2.98rem;
+            float: left;
+            height: 0.82rem;
+            border-radius: 0.1rem;
+            font-size: 0.26rem;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 0.82rem;
+            background: #faad18;
+            color: #b01915;
+            a{
+                color: #b01915;
+            }
+            span{
+                display: inline-block;
+                font-size: 0.3rem;
+                line-height: 0.82rem;
+                font-weight: 500;
+                vertical-align: middle;
+            }
+            i{
+                display: inline-block;
+                font-size: 0.24rem;
+                padding-left: 0.02rem;
+                line-height: 0.82rem;
+                vertical-align: middle;
+            }
+            .kefu{
+                font-size: 0.46rem;
+            }
+        }
+        p:first-child{
+            margin-right: 0.38rem;
+        }
+    }
+}

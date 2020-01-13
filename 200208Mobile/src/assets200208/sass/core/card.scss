@@ -1,0 +1,175 @@
+/*
+ * @Author: 梁杰
+ * @Date: 2020-01-07 18:47:59
+ * @LastEditors  : 梁杰
+ * @LastEditTime : 2020-01-13 14:33:01
+ * @Description: 翻牌样式
+ */
+
+.card{
+    width: 6.78rem;
+    height: auto;
+    margin: 0 auto;
+    .card-tit{
+        width: 6.78rem;
+        height: 1.3rem;
+        margin: 0.3rem auto 0.1rem;
+        background: url(../../assets200208/img/futit2.png) no-repeat;
+        background-size: 100%;
+    }
+    .card-inner{
+        width: 6.78rem;
+        height: auto;
+        margin: 0 auto;
+        ul{
+            width: 100%;
+            overflow: hidden;
+            padding-top: 0.2rem;
+            li{
+                width: 2.06rem;
+                height: 2.74rem;
+                border-radius: 0.2rem;
+                margin: 0 0.1rem 0.21rem;
+                float: left;
+                .filp-div{
+                    width: 100%;
+                    height: 2.68rem;
+                    border-radius: 0.2rem;
+                    background: #fff url(../../assets200208/img/6.png);
+                    background-size: 100%;
+                    overflow: hidden;
+                    background-position-y: -0.03rem;
+                    -moz-box-shadow:0rem .04rem .05rem #333333; -webkit-box-shadow:0rem .04rem .05rem #333333; box-shadow:0rem .04rem .05rem #333333;
+                }
+                .filp-div1{
+                    width: 100%;
+                    height: 2.68rem;
+                    border-radius: 0.2rem;
+                    background: #fff url(../../assets200208/img/i1.png);
+                    background-size: 100%;
+                    overflow: hidden;
+                    background-position-y: -0.03rem;
+                    -moz-box-shadow:0rem .04rem .05rem #333333; -webkit-box-shadow:0rem .04rem .05rem #333333; box-shadow:0rem .04rem .05rem #333333;
+                    position: relative;
+                    span{
+                        display: inline-block;
+                        width: 0.95rem;
+                        height: 0.5rem;
+                        text-align: center;
+                        font-weight: bold;
+                        line-height: 0.5rem;
+                        font-size: 0.4rem;
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0.15rem;
+                        margin-left: -0.58rem;
+                        color: #f0c832;
+                    }
+                }
+                .filp-p{
+                    font-size: 0.14rem;
+                    text-align: center;
+                    color: #cc121f;
+                    padding-top: 0.29rem;
+                    transform: scale(0.9);
+                    line-height: 0.14rem;
+                }
+                .filp-img{
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .filp-gift{
+                    font-size: 0.12rem;
+                    text-align: center;
+                    color: #cc121f;
+                    transform: scale(0.9);
+                    line-height: 0.21rem;
+                }
+                .filp-over{
+                    font-size: 0.16rem;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #cc121f;
+                    transform: scale(0.9);
+                }
+                .flipper {
+                    width: 100%;
+                    height: 100%;
+                    transition: transform 1s ease-out;
+                    transition: transform 1s ease-in-out;
+                    -webkit-transition: transform 1s ease-in-out;
+                    -moz-transition: transform 1s ease-in-out;
+                    -ms-transition: transform 1s ease-in-out;
+                    -o-transition: transform 1s ease-in-out;
+                    -webkit-transform-style: preserve-3d;
+                    /*使其子类变换后得以保留 3d转换后的位置*/
+                    -moz-transform-style: preserve-3d;
+                    -ms-transform-style: preserve-3d;
+                    -o-transform-style: preserve-3d;
+                    transform-style: preserve-3d;
+                    display: block;
+                    position: relative;
+                    .front {
+                        z-index: 2;
+                        transform: rotateY(0deg);
+                        -webkit-transform: rotateY(0deg);
+                        -moz-transform: rotateY(0deg);
+                        -ms-transform: rotateY(0deg);
+                        -o-transform: rotateY(0deg);
+                    }
+                    .front,
+                    .back {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .front,
+                    .back {
+                        backface-visibility: hidden;
+                        transition: 1s ease-out;
+                        -webkit-transition: 1s ease-out;
+                        -webkit-transform-style: preserve-3d;
+                        -moz-transform-style: preserve-3d;
+                        -ms-transform-style: preserve-3d;
+                        -o-transform-style: preserve-3d;
+                        transform-style: preserve-3d;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+            
+                    .front img,
+                    .back img {
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    .back {
+                        z-index: 1;
+                        transform: rotateY(-180deg);
+                        transform: rotateY(-180deg);
+                        -webkit-transform: rotateY(-180deg);
+                        -moz-transform: rotateY(-180deg);
+                        -ms-transform: rotateY(-180deg);
+                        -o-transform: rotateY(-180deg);
+                    }
+                }
+            }
+            .flip-container {
+                perspective: 1000;
+                -webkit-perspective: 1000px;
+                /*父类容器中 perspective 子类允许透视*/
+                -moz-perspective: 1000px;
+                -ms-perspective: 1000px;
+                -o-perspective: 1000px;
+                perspective: 1000px;
+                width: 2.06rem;
+                height: 2.74rem;
+                border-radius: 0.2rem;
+                margin: 0 0.1rem 0.21rem;
+                float: left;
+            }
+        }
+    }
+}
